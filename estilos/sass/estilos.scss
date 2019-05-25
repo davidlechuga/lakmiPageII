@@ -2,7 +2,6 @@
 @import "header";
 @import "banner&copy";
 @import "objetivos";
-@import "media-queries";
 * {
    box-sizing: border-box;
 }
@@ -41,3 +40,5 @@ body {
    background: $resaltado-2;
    border: none;
 }
+
+@import "media-queries";
