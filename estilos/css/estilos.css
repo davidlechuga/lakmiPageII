@@ -1,15 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "lucida_sansregular";
+  src: url("../font/lucida_sans-webfont.woff2") format("woff2"), url("../font/lucida_sans-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lucida_sansdemibold";
+  src: url("../font/lucidasansdemibold-webfont.woff2") format("woff2"), url("../font/lucidasansdemibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lucida_sansitalic";
+  src: url("../font/lucida_sans_italic-webfont.woff2") format("woff2"), url("../font/lucida_sans_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "lucida_sansregular", Verdana, sans-serif;
+}
+
+.contenedor-principal {
+  padding: 0;
+}
+
+.btn-contacto {
+  background: #8784c7;
+  border: none;
+}
+
 .header {
   background: white;
-  padding: 15px 20px 15px;
+  padding: 0 20px;
+}
+.header .contenedor-logo {
+  padding: 10px 0;
 }
 .header .contenedor-nav .nav a {
   color: #8c8c8c;
 }
 .header .contenedor-nav .nav a:last-child {
   color: white;
-}
-.header .img-logo {
-  height: 9vh;
 }
 
 .contenedor-banner-copy {
@@ -50,48 +89,33 @@
   background-size: 100%;
 }
 
-* {
-  box-sizing: border-box;
+.seccion-beneficios {
+  padding: 0 20px;
+}
+.seccion-beneficios .titulo-seccion h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+.seccion-beneficios .titulo-seccion h2 span {
+  position: relative;
+}
+.seccion-beneficios .titulo-seccion h2 span::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 10%;
+  width: 80%;
+  border: 1px solid black;
 }
 
-html, body {
-  height: 100%;
-}
-
-@font-face {
-  font-family: "lucida_sansregular";
-  src: url("../font/lucida_sans-webfont.woff2") format("woff2"), url("../font/lucida_sans-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "lucida_sansdemibold";
-  src: url("../font/lucidasansdemibold-webfont.woff2") format("woff2"), url("../font/lucidasansdemibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "lucida_sansitalic";
-  src: url("../font/lucida_sans_italic-webfont.woff2") format("woff2"), url("../font/lucida_sans_italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-body {
-  font-family: "lucida_sansregular", Verdana, sans-serif;
-}
-
-.contenedor-principal {
-  padding: 0;
-}
-
-.btn-contacto {
-  background: #8784c7;
-  border: none;
-}
-
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  .contenedor-banner-copy {
+    height: auto;
+    margin-top: 12vh;
+  }
   .contenedor-banner-copy .copy {
     color: #8c8c8c;
+    position: relative;
   }
 }
 

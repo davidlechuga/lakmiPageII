@@ -1,13 +1,16 @@
 .header {
    background: $fondo-claro-1;
-   padding: 15px 20px 15px;
+   padding: 0 20px;
+   .contenedor-logo {
+      padding: 10px 0;
+      // .img-logo {
+      //    // height: 9vh;
+      // }
+   }
    .contenedor-nav .nav a{
       color: $links;
    }
    .contenedor-nav .nav a:last-child{
       color: $fondo-claro-1;
-   }
-   .img-logo {
-      height: 9vh;
    }
 }

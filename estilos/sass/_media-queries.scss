@@ -1,7 +1,11 @@
-@media (max-width: 720px){
+@media (max-width: 768px){
    .contenedor-banner-copy {
+      height: auto;
+      margin-top: 12vh;
+
       .copy {
          color: $links;
+         position: relative;
       }
    }
 }

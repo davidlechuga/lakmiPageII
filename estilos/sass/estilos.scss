@@ -1,7 +1,4 @@
 @import "vars";
-@import "header";
-@import "banner&copy";
-@import "objetivos";
 * {
    box-sizing: border-box;
 }
@@ -40,5 +37,12 @@ body {
    background: $resaltado-2;
    border: none;
 }
+
+@import "header";
+@import "banner&copy";
+@import "objetivos";
+@import "beneficios";
+
+
 
 @import "media-queries";
