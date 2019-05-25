@@ -1,9 +1,9 @@
 .contenedor-objetivos {
    .objetivo-1, .objetivo-2 {
-      height: 50vh;
+      height: 43vh;
       display: flex;
       align-items: center;
-      padding: 20px 30px;
+      padding: 0px 30px;
       justify-content: space-between;
    }
    .objetivo-1 p, .objetivo-2 p {
@@ -14,5 +14,6 @@
    }
    .objetivo-2 {
       background-image: url(../../public/images/home/3-home.svg);
+      background-size: 100%;
    }
 }

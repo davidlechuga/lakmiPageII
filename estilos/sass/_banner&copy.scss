@@ -1,7 +1,12 @@
 .contenedor-banner-copy {
-   height: 90vh;
-   overflow: hidden;
    position: relative;
+   min-height: 90vh;
+   margin-top: 10vh;
+   .banner {
+      img {
+         min-width: 100%;
+      }
+   }
    .copy {
       padding: 5%;
       position: absolute;

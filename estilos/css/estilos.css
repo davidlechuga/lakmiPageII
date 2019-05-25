@@ -1,4 +1,5 @@
 .header {
+  background: white;
   padding: 15px 20px 15px;
 }
 .header .contenedor-nav .nav a {
@@ -12,9 +13,12 @@
 }
 
 .contenedor-banner-copy {
-  height: 90vh;
-  overflow: hidden;
   position: relative;
+  min-height: 90vh;
+  margin-top: 10vh;
+}
+.contenedor-banner-copy .banner img {
+  min-width: 100%;
 }
 .contenedor-banner-copy .copy {
   padding: 5%;
@@ -29,10 +33,10 @@
 }
 
 .contenedor-objetivos .objetivo-1, .contenedor-objetivos .objetivo-2 {
-  height: 50vh;
+  height: 43vh;
   display: flex;
   align-items: center;
-  padding: 20px 30px;
+  padding: 0px 30px;
   justify-content: space-between;
 }
 .contenedor-objetivos .objetivo-1 p, .contenedor-objetivos .objetivo-2 p {
@@ -43,10 +47,15 @@
 }
 .contenedor-objetivos .objetivo-2 {
   background-image: url(../../public/images/home/3-home.svg);
+  background-size: 100%;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
 }
 
 @font-face {
