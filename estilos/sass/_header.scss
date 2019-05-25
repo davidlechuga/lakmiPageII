@@ -1,0 +1,13 @@
+.header {
+   // background: red;
+   padding: 15px 20px 15px;
+   .contenedor-nav .nav a{
+      color: $links;
+   }
+   .contenedor-nav .nav a:last-child{
+      color: $fondo-claro-1;
+   }
+   .img-logo {
+      height: 9vh;
+   }
+}

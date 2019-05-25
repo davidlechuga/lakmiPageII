@@ -1,0 +1,40 @@
+@import "vars";
+@import "header";
+@import "banner&copy";
+@import "objetivos";
+@import "media-queries";
+* {
+   box-sizing: border-box;
+}
+@font-face {
+   font-family: 'lucida_sansregular';
+   src: url('../font/lucida_sans-webfont.woff2') format('woff2'),
+        url('../font/lucida_sans-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'lucida_sansdemibold';
+   src: url('../font/lucidasansdemibold-webfont.woff2') format('woff2'),
+        url('../font/lucidasansdemibold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'lucida_sansitalic';
+   src: url('../font/lucida_sans_italic-webfont.woff2') format('woff2'),
+        url('../font/lucida_sans_italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+   font-family: 'lucida_sansregular', Verdana, sans-serif; 
+}
+.contenedor-principal {
+   padding: 0;
+}
+.btn-contacto {
+   background: $resaltado-2;
+   border: none;
+}

@@ -1,0 +1,18 @@
+.contenedor-objetivos {
+   .objetivo-1, .objetivo-2 {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      padding: 20px 30px;
+      justify-content: space-between;
+   }
+   .objetivo-1 p, .objetivo-2 p {
+      width: 70%;
+   }
+   .objetivo-1 img {
+      max-height: 100%;
+   }
+   .objetivo-2 {
+      background-image: url(../../public/images/home/3-home.svg);
+   }
+}
