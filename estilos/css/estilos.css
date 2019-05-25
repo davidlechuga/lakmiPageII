@@ -37,6 +37,22 @@ body {
   border: none;
 }
 
+.titulo-seccion h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+.titulo-seccion h2 span {
+  position: relative;
+}
+.titulo-seccion h2 span::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  right: 15%;
+  width: 75%;
+  border: 1px solid #8784c7;
+}
+
 .header {
   background: white;
   padding: 0 20px;
@@ -92,20 +108,13 @@ body {
 .seccion-beneficios {
   padding: 0 20px;
 }
-.seccion-beneficios .titulo-seccion h2 {
-  margin: 2rem 0;
-  text-align: center;
+
+.beneficio {
+  display: flex;
+  align-items: center;
 }
-.seccion-beneficios .titulo-seccion h2 span {
-  position: relative;
-}
-.seccion-beneficios .titulo-seccion h2 span::after {
-  content: "";
-  position: absolute;
-  bottom: -30%;
-  left: 10%;
-  width: 80%;
-  border: 1px solid black;
+.beneficio img {
+  margin-right: 2em;
 }
 
 @media (max-width: 768px) {

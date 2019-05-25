@@ -1,20 +1,10 @@
 .seccion-beneficios {
    padding: 0 20px;
-   .titulo-seccion {
-      h2 {
-         margin: 2rem 0;
-         text-align: center;
-         span {
-            position: relative;
-            &::after {
-               content: "";
-               position: absolute;
-               bottom: -30%;
-               left: 10%;
-               width: 80%;
-               border: 1px solid black;
-            }
-         }
-      }
+}
+.beneficio {
+   display: flex;
+   align-items: center;
+   img {
+      margin-right: 2em;
    }
 }
