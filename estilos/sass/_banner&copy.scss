@@ -1,0 +1,16 @@
+.contenedor-banner-copy {
+   height: 90vh;
+   overflow: hidden;
+   position: relative;
+   .copy {
+      padding: 5%;
+      position: absolute;
+      color: $fondo-claro-1;
+      h1 {
+         font-family: "lucida_sansdemibold";
+      }
+      p {
+         font-size: 25px;
+      }
+   }
+}

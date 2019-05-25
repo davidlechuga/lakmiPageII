@@ -19,48 +19,49 @@
       <meta property="twitter:description" content="Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes." class="next-head" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="estilos/css/bootstrap.min.css">
+      <link rel="stylesheet" href="estilos/css/estilos.css">
       <title>Lakmi Systems</title>
    </head>
    <body>
 
-      <div class="container contenedor-principal">
+      <div class="container-fluid contenedor-principal">
 
          <!-- LOGO Y BARRA DE NAVEGACION -->
          <!-- header -->
-         <header class="row justify-content-between header">
-            <div class="col-auto contenedor-logo">
-               <img src="" alt="">
+         <header class="row justify-content-between header align-items-center no-gutters">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 contenedor-logo">
+               <img class="img-logo img-fluid" src="public/images/logo/Logo.svg" alt="">
             </div>
-            <div class="col-auto contenedor-nav">
+            <div class="col-auto d-none d-md-block contenedor-nav">
                <nav class="nav">
-                  <a class="" href="">Inicio</a>
-                  <a class="" href="">Nosotros</a>
-                  <a class="" href="">Servicios</a>
-                  <a class="" href="">Beneficios</a>
-                  <a class="" href="">Contacto</a>
+                  <a class="nav-link" href="">Inicio</a>
+                  <a class="nav-link" href="">Nosotros</a>
+                  <a class="nav-link" href="">Servicios</a>
+                  <a class="nav-link" href="">Beneficios</a>
+                  <a class="nav-link btn btn-contacto " href="">Contacto</a>
                </nav>
             </div>
          </header>
          <!-- /header -->
 
          <!-- BANNER Y COPY -->
-         <div class="row contenedor-banner">
-            <div class="col-12">
-               <img class="img-fluid" src="" alt="">
+         <div class="row contenedor-banner-copy no-gutters">
+            <div class="col-12 d-none d-lg-block banner">
+               <img class="img-fluid" src="public/images/banner/1-header.svg" alt="">
             </div>
-            <div class="col">
+            <div class="col-12 col-md-9 col-lg-8 copy">
                <h1>Soluciones y Servicios con un enfoque basado en la Integración de la Administración de Riesgos</h1>
                <p>Con la estrategia y el desempeño de cada uno de nuestros Clientes.</p>
-               <button>Contactar</button>
+               <button class="btn btn-primary btn-lg btn-contacto">Contactar</button>
             </div>
          </div>
          <!--  -->
 
          <!-- OBJETIVOS -->
-         <div class="row contenedor-objetivos">
+         <div class="row contenedor-objetivos d-none d-md-block">
             <div class="col-12 objetivo-1">
-               <img src="" alt="">
                <p>&ldquo;Todas las entidades se enfrentan al riesgo en la búsqueda de valor, por ello trabajamos bajo la premisa de que el valor de nuestros clientes se maximiza cuando la administración establece una estrategia y objetivos con miras a obtener un balance optimo entre las metas de crecimiento e inversión y los riesgos relacionados, así como cuando realiza un despliegue eficiente y efectivo de recursos en función y con apego a los objetivos de su empresa u organización.&rdquo;</p>
+               <img src="public/images/home/2-home.svg" alt="">
             </div>
             <div class="col-12 objetivo-2">
                <img src="" alt="">
@@ -104,10 +105,208 @@
             <div class="col-12">
                <h3>Beneficios de un Sistema de Control Interno</h3>
             </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <h4>Confianza sobre la consecución de objetivos, reducción de riesgos y retroalimentación sobre el funcionamiento de la empresa</h4>
+               <p>Proporciona a la administración y a la alta dirección una mayor confianza respecto al logro de los objetivos, brindando retroalimentación sobre el funcionamiento de la empresa u organización y ayudando a reducir la materialización de riesgos.</p>
+            </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <h4>Acceso a financiamiento y capacidad para cumplir con las responsabilidades asociadas</h4>
+               <p>Brinda la capacidad de cumplir con ciertos requisitos para acceder a fuentes de financiamiento (incluyendo a los mercados de capital), proporcionando innovación impulsada por el capital y crecimiento económico. Adicionalmente ayuda a cumplir con las responsabilidades que acompañan el acceso al financiamiento, como el efectuar informes oportunos y confiables para accionistas, acreedores, patrocinadores, reguladores y otras partes interesadas, con las que la empresa u organización tiene relaciones contractuales directas.</p>
+            </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <h4>Otros beneficios asociados a un control interno efectivo</h4>
+               <p>Capacidad y confianza para comunicar con precisión el rendimiento del negocio con socios, clientes y otras partes interesadas, lo que respalda la continuidad de las relaciones.</p>
+               <p>Informes confiables que apoyan la administración y la toma de decisiones de la alta dirección en asuntos tales como precios de productos, inversión de capital y despliegue de recursos.</p>
+               <p>Una base para decisiones donde se necesita un juicio altamente subjetivo y sustancial.</p>
+               <p>Mecanismos consistentes para procesar transacciones, respaldar la calidad de la información y las comunicaciones en toda la organización, mejorar la rapidez y confiabilidad con la que se inician y liquidan las transacciones, y proporcionar un registro integro y exacto de los datos.</p>
+               <p>Mayor eficiencia en funciones y procesos.</p>
+            </div>
          </section>
          <!-- /section -->
-         <!--ÁREAS ESPECIALIZADAS DE NUESTROS SEVICIOS-->
-         <section class="row areas">
+
+         <!-- SECCION SERVICIOS -->
+         <!-- section -->
+         <section class="row seccion-servicios">
+            <div class="col-12">
+               <h2>SERVICIOS</h2>
+            </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <div class="">
+                  <h4>Diagnóstico</h4>
+                  <p>Proporcionamos un diagnóstico completo y preciso del sistema de control interno que se encuentra operando actualmente en la empresa u organización. Nuestro diagnostico incluye la detección de componentes y principios del control interno que no están presentes y funcionando en la empresa u organización, con base en un marco integral de control interno; la identificación de aspectos de mejora en los componentes de control ya existentes; así como una evaluación genérica y de alto nivel del diseño e implementación de una selección de actividades de control.</p>
+               </div>
+            </div>
+            <div class="col-12">
+               <div class="">
+                  <h4>Diseño del sistema de control interno</h4>
+                  <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño del sistema de control interno cubriendo todos los componentes del Marco Integrado de Control Interno del Committee of Sponsoring Organizations of the Treadway Commission (“COSO”). El diseño incluye la documentación de los procesos de negocio y la preparación de arreglos de objetivos, riesgos y controles.</p>
+               </div>
+               <img src="" alt="">
+            </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <div class="">
+                  <h4>Diseño e implementación inicial de controles asociados a los objetivos de reporte de información financiera.</h4>
+                  <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño e implementación de controles asociados al proceso de preparación de estados financieros de conformidad con normas de información financiera; declaraciones fiscales; presupuestos u otros reportes empleados en el proceso de toma de decisiones de la administración.</p>
+               </div>
+            </div>
+            <div class="col-12">
+               <div class="">
+                  <h4>La implementación inicial de controles asociados a objetivos de reporte de información financiera</h4>
+                  <p>Ayudamos a la administración y los responsables de las principales funciones y procesos de la empresa u organización en la implementación de controles asociados a objetivos de reporte de información financiera interna y externa. Este servicio incluye la elaboración de plantillas de papeles de trabajo y capacitación a los responsables del sistema de información financiera.</p>
+               </div>
+               <img src="" alt="">
+            </div>
+            <div class="col-12">
+               <img src="" alt="">
+               <div class="">
+                  <h4>Evaluación de aspectos técnicos contables</h4>
+                  <p>Auxiliamos a la administración en el proceso de evaluación del tratamiento contable en el reconocimiento inicial y posterior de transacciones, transformaciones internas y otros eventos que afectan económicamente a la empresa, de conformidad con el marco de información financiera que le sea aplicable.</p>
+               </div>
+            </div>
+            <div class="col-12">
+               <h3>ÁREAS ESPECIALIZADAS DE NUESTROS SERVICIOS</h3>
+               <img class="img-fluid" src="" alt="">
+            </div>
+            <div class="col-6">
+               <div class="">
+                  <h4>Consultoría de controles asociados a rubros específicos de los estados financieros</h4>
+                  <ul>
+                     <li>Identificación y clasificación de equivalentes de efectivo.</li>
+                     <li>Identificación y clasificación de efectivo y equivalentes de efectivo restringidos.</li>
+                     <li>Clasificación de instrumentos financieros.</li>
+                     <li>Determinación el modelo de negocio utilizado para la administración de equivalentes de efectivo, cuentas por cobrar e inversiones en instrumentos financieros.</li>
+                     <li>Evaluación de los requisitos para reclasificar instrumentos financieros.</li>
+                     <li>Evaluación de los efectos de reclasificaciones en la valuación de instrumentos financieros.</li>
+                     <li>Reconocimiento inicial de Instrumentos Financieros para Cobrar Principal e Interés (IFCPI).</li>
+                     <li>Reconocimiento mediante costo amortizado de Instrumentos Financieros para Cobrar Principal e Interés (IFCPI).</li>
+                     <li>Efectos de liquidación de cuentas por cobrar e IFCPI mediante adjudicación o dación en pago de activos.</li>
+                     <li>Evaluación del costo y el valor neto de realización de inventarios.</li>
+                     <li>Definición del método de valuación de inventarios más apropiado.</li>
+                     <li>Definición de la fórmula de asignación del costo más apropiada para el reconocimiento posterior de inventarios.</li>
+                     <li>Evaluación de pérdidas por deterioro de pagos anticipados.</li>
+                     <li>Evaluación de cumplimiento de las condiciones para el reconocimiento de una erogación como activo.</li>
+                     <li>Identificación de componentes de propiedades, planta y equipo.</li>
+                     <li>Integración del costo de adquisición de activos.</li>
+                     <li>Evaluación de los efectos por modificaciones al costo inicial de activos.</li>
+                     <li>Preparación del esquema de depreciación y elección del método de depreciación.</li>
+                     <li>Reconocimiento del efecto de las bajas de propiedades, planta y equipo.</li>
+                     <li>Clasificación de inversiones permanentes.</li>
+                     <li>Identificación de entidades estructuradas.</li>
+                     <li>Evaluación de influencia significativa y control conjunto.</li>
+                     <li>Reconocimiento inicial de inversiones permanentes.</li>
+                     <li>Reconocimiento posterior de inversiones permanentes a costo o método de participación.</li>
+                     <li>Identificación de activos intangibles con costo o activos gratuitos.</li>
+                     <li>Evaluación de la forma de adquisición de un activo intangible.</li>
+                     <li>Asociación de costos relacionados con la fase de investigación y la fase de desarrollo.</li>
+                     <li>Evaluación de la vida útil de activos intangibles.</li>
+                     <li>Diferenciación entre pasivos, provisiones, contingencias y compromisos.</li>
+                     <li>Identificación del momento de reconocimiento de provisiones.</li>
+                     <li>Reconocimiento inicial y posterior de provisiones.</li>
+                     <li>Identificación y reconocimiento de contingencias.</li>
+                     <li>Identificación y reconocimiento de compromisos.</li>
+                     <li>Identificación de las características y condiciones de un instrumento financiero de pasivo o de capital.</li>
+                     <li>Presentación de un instrumento financiero de pasivo o de capital.</li>
+                     <li>Clasificación de los componentes de pasivo y de capital, de un instrumento financiero compuesto.</li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h4>Asesoría y consultoría en control interno asociado a la información financiera interna</h4>
+                  <ul>
+                     <li>Controles asociados a la elaboración de información financiera proyectada.</li>
+                     <li>Controles asociados a la elaboración de información financiera proforma.</li>
+                     <li>Controles asociados a reportes específicos usados por la administración.</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="">
+                  <h4>Asesoría y consultoría en control interno de informes financieros externos</h4>
+                  <ul>
+                     <li>Consultoría de controles asociados a la preparación de los estados financieros básicos
+                        <ul>
+                           <li>Aplicación de cambios contables con tratamiento retrospectivo y correcciones de errores.</li>
+                           <li>Aplicación de cambios contables con tratamiento prospectivo.</li>
+                           <li>Evaluación de la procedencia de la compensación de activos y pasivos financieros.</li>
+                           <li>Identificación de operaciones extranjeras.</li>
+                           <li>Identificación de la moneda funcional, de informe y de registro.</li>
+                           <li>Conversión de la moneda de registro a la funcional.</li>
+                           <li>Conversión de la moneda funcional a la de informe.</li>
+                           <li>Evaluación de entorno económico como inflacionario o no inflacionario.</li>
+                           <li>Conversión de estados financieros por cambios de moneda de registro, funcional y de informe.</li>
+                           <li>Consolidación de operaciones extranjeras.</li>
+                           <li>Reconocimiento de disposiciones de operaciones extranjeras.</li>
+                           <li>Identificación de control en una participada.</li>
+                           <li>Preparación de los requisitos de la consolidación de estados financieros.</li>
+                           <li>Implementación del procedimiento de la consolidación de estados financieros.</li>
+                           <li>Evaluación de efectos por cambios en el porcentaje de participación.</li>
+                           <li>Evaluación de efectos por pérdida de control.</li>
+                           <li>Evaluación la posibilidad de ejercer la opción para no presentar estados financieros consolidados.</li>
+                           <li>Implementación del procedimiento de combinación de estados financieros.</li>
+                        </ul>
+                     </li>
+                     <li>Consultoría de controles asociados a revelaciones específicas de los estados financieros
+                        <ul>
+                           <li>Identificación de partes relacionadas de la entidad informante.</li>
+                           <li>Evaluación del cumplimiento de revelaciones requeridas de partes relacionadas.</li>
+                           <li>Identificación de segmentos sujetos a informar.</li>
+                           <li>Preparación de información a revelar por segmentos.</li>
+                           <li>Aplicación de cambios en la estructura de la organización de la entidad.</li>
+                           <li>Identificación de hechos posteriores a la fecha de los estados financieros que requieren ajuste y revelación.</li>
+                           <li>Evaluación de negocio en marcha.</li>
+                           <li>Identificación de hechos posteriores a la fecha de los estados financieros que sólo requieren revelación.</li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h4>Asesoría y consultoría en las siguientes funciones y procesos de negocio:</h4>
+                  <ul>
+                     <li>Cuentas por cobrar.</li>
+                     <li>Inventarios.</li>
+                     <li>Cuentas por pagar.</li>
+                     <li>Compras.</li>
+                     <li>Gestión de activos.</li>
+                     <li>Tesorería.</li>
+                     <li>Sistemas y tecnologías de la información.</li>
+                     <li>Legal.</li>
+                     <li>Recursos humanos y nómina.</li>
+                     <li>Impuestos.</li>
+                     <li>Contabilidad.</li>
+                     <li>Contraloría.</li>
+                     <li>Administración y finanzas.</li>
+                  </ul>
+               </div>
+               <div class="">
+                  <h4>Asesoría y consultoría en control interno asociado al cumplimento fiscal</h4>
+                  <ul>
+                     <li>Diagnóstico fiscal
+                        <ul>
+                           <li>Determinación de las obligaciones fiscales a que se está sujeto.</li>
+                        </ul>
+                     </li>
+                     <li>Controles asociados al cumplimiento de obligaciones fiscales
+                        <ul>
+                           <li>Declaraciones de pago de impuestos.</li>
+                           <li>Declaraciones informativas de impuestos.</li>
+                           <li>Contabilidad electrónica.</li>
+                           <li>Controles asociados a facturación.</li>
+                           <li>Controles asociados otras obligaciones fiscales.</li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <!-- /section -->
+
+
+         <!-- ÁREAS ESPECIALIZADAS DE NUESTROS SEVICIOS-->
+         <!-- <section class="row areas">
             <article col="col-12 area_seccion1">
                <h2 class="area_title">ÁREAS ESPECIALIZADAS DE NUESTROS SERVICIOS</h2>
             </article>
@@ -135,8 +334,9 @@
             <p>○Identificación de control en una participada</p>
             <p>○Identificación de control en una participada</p>
             </article>
-         </section>
-         <!-- FIN ÁREAS ESPECIALIZADAS DE NUESTROS SEVICIOS-->
+         </section> -->
+         <!-- FIN ÁREAS ESPECIALIZADAS DE NUESTROS SEVICIOS -->
+
          <!--ENTREGABLES DE NUESTROS SERVICIOS-->
          <section class="row entregables">
             <article class="col-12 entre_title">
