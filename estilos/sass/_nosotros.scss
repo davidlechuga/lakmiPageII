@@ -1,0 +1,35 @@
+.nos_seccion {
+	padding: 0 20px;
+	.nosotros_title {
+		h2 {
+			font-weight: bold;
+			margin: 2rem 0;
+			text-align: center;
+			span {
+				position: relative;
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: -30%;
+					left: 10%;
+					width: 80%;
+					border: 1px solid $resaltado-1;
+				}
+			}
+		}
+	}	
+}
+
+.nos-img {
+	 height: 80%;
+	 text-align: center;
+}
+
+
+
+.nos_article,
+.sec-img {
+	display: flex;
+    justify-content: center;
+    align-items: center
+}
