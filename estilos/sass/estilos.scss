@@ -38,7 +38,7 @@ body {
    border: none;
 }
 .titulo-seccion {
-   h2 {
+   h2, h3 {
       margin: 2rem 0;
       text-align: center;
       span {
@@ -54,11 +54,30 @@ body {
       }
    }
 }
+// .subtitulo-seccion {
+//    h4, h5 {
+//       margin: 2rem 0;
+//       text-align: center;
+//       span {
+//          position: relative;
+//          &::after {
+//             content: "";
+//             position: absolute;
+//             top: 100%;
+//             bottom: 0;
+//             right: 15%;
+//             width: 75%;
+//             border: 1px solid $fondo-claro-3;
+//          }
+//       }
+//    }
+// }
 
 @import "header";
 @import "banner&copy";
 @import "objetivos";
 @import "beneficios";
+@import "servicios";
 
 
 

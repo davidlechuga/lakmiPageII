@@ -37,14 +37,14 @@ body {
   border: none;
 }
 
-.titulo-seccion h2 {
+.titulo-seccion h2, .titulo-seccion h3 {
   margin: 2rem 0;
   text-align: center;
 }
-.titulo-seccion h2 span {
+.titulo-seccion h2 span, .titulo-seccion h3 span {
   position: relative;
 }
-.titulo-seccion h2 span::after {
+.titulo-seccion h2 span::after, .titulo-seccion h3 span::after {
   content: "";
   position: absolute;
   bottom: -30%;
@@ -97,6 +97,9 @@ body {
 .contenedor-objetivos .objetivo-1 p, .contenedor-objetivos .objetivo-2 p {
   width: 70%;
 }
+.contenedor-objetivos .objetivo-1 {
+  padding: 1rem 0;
+}
 .contenedor-objetivos .objetivo-1 img {
   max-height: 100%;
 }
@@ -115,7 +118,7 @@ body {
   padding: 2rem 2em;
 }
 .seccion-beneficios .beneficio:nth-child(odd) {
-  background: #dcd8dc;
+  background: #f1f1f1;
 }
 .seccion-beneficios .beneficio img {
   margin-right: 2em;
@@ -123,6 +126,66 @@ body {
 }
 .seccion-beneficios .beneficio div {
   width: 100%;
+}
+
+.seccion-servicios {
+  background: #f1f1f1;
+}
+.seccion-servicios .servicio {
+  margin: 25px;
+  height: 400px;
+  position: relative;
+  perspective: 1000px;
+  color: white;
+}
+.seccion-servicios .servicio:nth-last-of-type(odd) .cara {
+  background: #2a84c2;
+}
+.seccion-servicios .servicio:nth-last-of-type(even) .cara {
+  background: #6997af;
+}
+.seccion-servicios .servicio .caja-servicio {
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+  width: 100%;
+  height: 100%;
+}
+.seccion-servicios .servicio .caja-servicio h4, .seccion-servicios .servicio .caja-servicio h5 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.seccion-servicios .servicio .caja-servicio h4::after, .seccion-servicios .servicio .caja-servicio h5::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 120%;
+  width: 60%;
+  border-bottom: 1px solid white;
+}
+.seccion-servicios .servicio .caja-servicio .cara {
+  position: absolute;
+  backface-visibility: hidden;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal img {
+  width: 35%;
+  margin-bottom: 2.5rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.posterior {
+  transform: rotateY(180deg);
+}
+.seccion-servicios .servicio:hover .caja-servicio {
+  transform: rotateY(180deg);
 }
 
 @media (max-width: 768px) {
@@ -134,13 +197,27 @@ body {
     color: #8c8c8c;
     position: relative;
   }
+
+  .servicio {
+    margin: 1rem 0;
+  }
+  .servicio .cara {
+    overflow: auto;
+  }
 }
 @media (max-width: 576px) {
   .seccion-beneficios .beneficio h4 {
     font-size: 17px;
   }
-  .seccion-beneficios .beneficio p {
+  .seccion-beneficios .beneficio p, .seccion-beneficios .beneficio ol {
     display: none;
+  }
+
+  .servicio {
+    height: 300px;
+  }
+  .servicio .cara img {
+    margin: 0;
   }
 }
 
