@@ -1,10 +1,19 @@
 .seccion-beneficios {
    padding: 0 20px;
-}
-.beneficio {
-   display: flex;
-   align-items: center;
-   img {
-      margin-right: 2em;
+   .beneficio {
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      padding: 2rem 2em;
+      &:nth-child(odd){
+         background: $fondo-claro-2;
+      }
+      img {
+         margin-right: 2em;
+         width: auto;
+      }
+      div {
+         width: 100%;
+      }
    }
 }
