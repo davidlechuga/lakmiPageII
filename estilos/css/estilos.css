@@ -53,6 +53,20 @@ body {
   border: 1px solid #8784c7;
 }
 
+.subtitulo-seccion h4, .subtitulo-seccion h5 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.subtitulo-seccion h4::after, .subtitulo-seccion h5::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 120%;
+  width: 60%;
+  border-bottom: 1px solid white;
+}
+
 .header {
   background: white;
   padding: 0 20px;
@@ -150,19 +164,6 @@ body {
   width: 100%;
   height: 100%;
 }
-.seccion-servicios .servicio .caja-servicio h4, .seccion-servicios .servicio .caja-servicio h5 {
-  text-align: center;
-  position: relative;
-  margin-bottom: 2rem;
-}
-.seccion-servicios .servicio .caja-servicio h4::after, .seccion-servicios .servicio .caja-servicio h5::after {
-  content: "";
-  position: absolute;
-  left: 20%;
-  top: 120%;
-  width: 60%;
-  border-bottom: 1px solid white;
-}
 .seccion-servicios .servicio .caja-servicio .cara {
   position: absolute;
   backface-visibility: hidden;
@@ -186,6 +187,20 @@ body {
 }
 .seccion-servicios .servicio:hover .caja-servicio {
   transform: rotateY(180deg);
+}
+.seccion-servicios .titulo-seccion img {
+  min-width: 100%;
+}
+.seccion-servicios .lista-areas-especializadas {
+  padding-left: 5%;
+  margin-top: 2rem;
+}
+.seccion-servicios .lista-areas-especializadas h4 {
+  padding: 5%;
+  font-size: 20px;
+}
+.seccion-servicios .contenido-areas-especializadas {
+  margin-top: 2rem;
 }
 
 @media (max-width: 768px) {

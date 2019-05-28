@@ -54,6 +54,21 @@ body {
       }
    }
 }
+.subtitulo-seccion {
+   h4, h5 {
+      text-align: center;
+      position: relative;
+      margin-bottom: 2rem;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 20%;
+        top: 120%;
+        width: 60%;
+        border-bottom: 1px solid white;
+      }
+    }
+}
 // .subtitulo-seccion {
 //    h4, h5 {
 //       margin: 2rem 0;
