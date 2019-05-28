@@ -1,0 +1,15 @@
+
+.valores_title {
+	font-family: lucida_sansdemibold;
+	padding: 0 40px;
+}
+
+.valores1 li,
+.valores2 li {
+	display: inline-block;
+	font-family: lucida_sansregular;
+	font-size: 1.3em;
+	padding-right: 3rem;
+	padding-left: 2rem;
+	background: url("../../public/images/valores/16-valores.svg") no-repeat center left / 1.5rem;
+}

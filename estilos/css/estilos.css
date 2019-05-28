@@ -142,65 +142,270 @@ body {
   width: 100%;
 }
 
-.seccion-servicios {
-  background: #f1f1f1;
+/*@import "servicios";*/
+.entregables {
+  background: F1F1F1;
+  box-shadow: 43px 41px 123px 71px #f1f1f1;
 }
-.seccion-servicios .servicio {
-  margin: 25px;
-  height: 400px;
+.entregables .entre_title h2 {
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+}
+.entregables .entre_title h2 span {
   position: relative;
-  perspective: 1000px;
+}
+.entregables .entre_title h2 span::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 10%;
+  width: 80%;
+  border: 1px solid #ad84c6;
+}
+
+.entre1 {
+  background: url("../../public/images/entregables/11- entregables.svg") no-repeat center top;
+  background-attachment: fixed !important;
+}
+
+.entre1,
+.entre4 {
+  background-size: cover;
+  height: 100vh;
+}
+
+.entre4 {
+  background: url("../../public/images/entregables/14- entregables.svg") no-repeat center top;
+  background-attachment: fixed !important;
+}
+
+.entre1 .entre2,
+.entre3,
+.entre4,
+.entre5,
+.entre6 {
+  display: relative;
+}
+
+.entre2,
+.entre5 {
+  padding-right: 30px;
+  padding-left: 0;
+}
+
+.entre3,
+.enetre6 {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.entre6 {
+  height: 700px;
+}
+
+.entre_sub1,
+.entre_sub2,
+.entre_sub3,
+.entre_sub4,
+.entre_sub5,
+.entre_sub6 {
+  background: rgba(90, 157, 202, 0.8);
+  color: white;
+  font-family: lucida_sansregular;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 13%;
+}
+
+.entre_sub1,
+.entre_sub4 {
+  justify-content: center;
+  height: 20%;
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.entre_sub2,
+.entre_sub3,
+.entre_sub5,
+.entre_sub6 {
+  height: 20%;
+  width: 80%;
+  padding: 20px;
+}
+
+.nos_seccion {
+  padding: 0 20px;
+}
+.nos_seccion .nosotros_title h2 {
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+}
+.nos_seccion .nosotros_title h2 span {
+  position: relative;
+}
+.nos_seccion .nosotros_title h2 span::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 10%;
+  width: 80%;
+  border: 1px solid #ad84c6;
+}
+
+.nos-img {
+  height: 80%;
+  text-align: center;
+}
+
+.nos_article,
+.sec-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.negocios_title {
+  font-family: lucida_sansdemibold;
+  padding: 0 40px;
+}
+
+.negocios_seccion1,
+.negocios_seccion2 {
+  font-family: lucida_sansregular;
+  text-align: center;
+  padding: 5%;
+}
+
+.negocios_seccion1 {
+  background: F1F1F1;
+}
+
+.negocios_seccion2 {
+  background: #6997af;
   color: white;
 }
-.seccion-servicios .servicio:nth-last-of-type(odd) .cara {
-  background: #2a84c2;
+
+.t_negocio1,
+.t_negocio2 {
+  font-size: 1.2em;
 }
-.seccion-servicios .servicio:nth-last-of-type(even) .cara {
-  background: #6997af;
+
+.valores_title {
+  font-family: lucida_sansdemibold;
+  padding: 0 40px;
 }
-.seccion-servicios .servicio .caja-servicio {
-  transform-style: preserve-3d;
-  transition: all 0.5s linear;
-  width: 100%;
-  height: 100%;
+
+.valores1 li,
+.valores2 li {
+  display: inline-block;
+  font-family: lucida_sansregular;
+  font-size: 1.3em;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  background: url("../../public/images/valores/16-valores.svg") no-repeat center left/1.5rem;
 }
-.seccion-servicios .servicio .caja-servicio .cara {
+
+.contacto {
+  padding: 0 20px;
+}
+.contacto .contact_title h2 {
+  font-weight: bold;
+  margin: 2rem 0;
+  text-align: center;
+}
+.contacto .contact_title h2 span {
+  position: relative;
+}
+.contacto .contact_title h2 span::after {
+  content: "";
   position: absolute;
-  backface-visibility: hidden;
-  padding: 2rem;
-  width: 100%;
-  height: 100%;
-  padding: 2rem 1rem;
+  bottom: -30%;
+  left: 10%;
+  width: 80%;
+  border: 1px solid #ad84c6;
 }
-.seccion-servicios .servicio .caja-servicio .cara.frontal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+textarea {
+  resize: none;
+  min-height: 250px;
 }
-.seccion-servicios .servicio .caja-servicio .cara.frontal img {
-  width: 35%;
-  margin-bottom: 2.5rem;
+
+.importante {
+  color: #5d739a;
 }
-.seccion-servicios .servicio .caja-servicio .cara.posterior {
-  transform: rotateY(180deg);
+
+.form-boton {
+  background: #8784c7;
+  border-radius: 10px;
+  color: #fff;
 }
-.seccion-servicios .servicio:hover .caja-servicio {
-  transform: rotateY(180deg);
+
+.form-boton:hover {
+  background: #0069D9;
+  color: #fff;
 }
-.seccion-servicios .titulo-seccion img {
-  min-width: 100%;
+
+.direccion {
+  padding-right: 30%;
 }
-.seccion-servicios .lista-areas-especializadas {
+
+.contacto_form {
   padding-left: 5%;
-  margin-top: 2rem;
 }
-.seccion-servicios .lista-areas-especializadas h4 {
-  padding: 5%;
-  font-size: 20px;
+
+.p__conacto > a {
+  color: #8c8c8c;
 }
-.seccion-servicios .contenido-areas-especializadas {
-  margin-top: 2rem;
+
+.p__conacto > a:hover {
+  text-decoration: none;
+  color: #69a020;
+}
+
+.foot {
+  height: 80px;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+.foot__marca,
+.foot_enlaces {
+  font-family: lucida_sansregular;
+  font-size: 0.9em;
+}
+
+.foot_enlaces {
+  padding: 0;
+}
+
+.foot_enlaces li {
+  display: inline-block;
+  color: #8c8c8c;
+  padding: 0 0.8em;
+}
+
+.foot_enlaces a {
+  text-decoration: none;
+  color: #8c8c8c;
+  padding-right: 0.4em;
+}
+
+.foot_enlaces a:hover {
+  color: #69a020;
+}
+
+.foot_social {
+  list-style: none;
+}
+
+.foot_social a {
+  margin: 0 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -227,12 +432,31 @@ body {
   .seccion-beneficios .beneficio p, .seccion-beneficios .beneficio ol {
     display: none;
   }
+  .seccion-beneficios .contacto_info .direccion {
+    padding: 0;
+    text-align: center;
+  }
+  .seccion-beneficios .valores .valores2 li {
+    display: block;
+  }
 
   .servicio {
     height: 300px;
   }
   .servicio .cara img {
     margin: 0;
+  }
+
+  .contacto_info .direccion {
+    padding: 0;
+    text-align: center;
+  }
+
+  .valores .valores1,
+.valores .valores2 {
+    display: block;
+    font-size: 1rem;
+    padding: 1em;
   }
 }
 

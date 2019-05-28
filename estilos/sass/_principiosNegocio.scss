@@ -1,0 +1,26 @@
+.negocios_title {
+	font-family: lucida_sansdemibold;
+	padding: 0 40px;
+}
+
+.negocios_seccion1,
+.negocios_seccion2, {
+	font-family: lucida_sansregular;
+	text-align: center;
+	padding: 5%;
+
+}
+
+.negocios_seccion1 {
+	 background: F1F1F1;	
+}
+
+.negocios_seccion2 {
+	background: $resaltado-4;
+	color: $fondo-claro-1;
+}
+
+.t_negocio1,
+.t_negocio2 {
+	font-size: 1.2em;
+}
