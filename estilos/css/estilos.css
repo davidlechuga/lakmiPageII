@@ -1,352 +1,42 @@
-* {
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...t "entregables"": expected "{", was ";"
+        on line 81 of C:\Users\SchneiderDoom\Documents\Projects\proyectoLakmiOficial\LakmiSystemsWeb\estilos\sass\estilos.scss
 
-html, body {
-  height: 100%; }
+76: @import "header";
+77: @import "banner&copy";
+78: @import "objetivos";
+79: @import "beneficios";
+80: <<<<<<< HEAD
+81: @import "entregables";
+82: @import "nosotros";
+83: @import "principiosNegocio";
+84: @import "valores";
+85: @import "contacto";
+86: @import "footer";
 
-@font-face {
-  font-family: 'lucida_sansregular';
-  src: url("../font/lucida_sans-webfont.woff2") format("woff2"), url("../font/lucida_sans-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'lucida_sansdemibold';
-  src: url("../font/lucidasansdemibold-webfont.woff2") format("woff2"), url("../font/lucidasansdemibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'lucida_sansitalic';
-  src: url("../font/lucida_sans_italic-webfont.woff2") format("woff2"), url("../font/lucida_sans_italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-body {
-  font-family: 'lucida_sansregular', Verdana, sans-serif; }
-
-.contenedor-principal {
-  padding: 0; }
-
-.btn-contacto {
-  background: #8784c7;
-  border: none; }
-
-.titulo-seccion h2 {
-  margin: 2rem 0;
-  text-align: center; }
-  .titulo-seccion h2 span {
-    position: relative; }
-    .titulo-seccion h2 span::after {
-      content: "";
-      position: absolute;
-      bottom: -30%;
-      right: 15%;
-      width: 75%;
-      border: 1px solid #8784c7; }
-
-.header {
-  background: white;
-  padding: 0 20px; }
-  .header .contenedor-logo {
-    padding: 10px 0; }
-  .header .contenedor-nav .nav a {
-    color: #8c8c8c; }
-  .header .contenedor-nav .nav a:last-child {
-    color: white; }
-
-.contenedor-banner-copy {
-  position: relative;
-  min-height: 90vh;
-  margin-top: 10vh; }
-  .contenedor-banner-copy .banner img {
-    min-width: 100%; }
-  .contenedor-banner-copy .copy {
-    padding: 5%;
-    position: absolute;
-    color: white; }
-    .contenedor-banner-copy .copy h1 {
-      font-family: "lucida_sansdemibold"; }
-    .contenedor-banner-copy .copy p {
-      font-size: 25px; }
-
-.contenedor-objetivos .objetivo-1, .contenedor-objetivos .objetivo-2 {
-  height: 43vh;
-  display: flex;
-  align-items: center;
-  padding: 0px 30px;
-  justify-content: space-between; }
-.contenedor-objetivos .objetivo-1 p, .contenedor-objetivos .objetivo-2 p {
-  width: 70%; }
-.contenedor-objetivos .objetivo-1 img {
-  max-height: 100%; }
-.contenedor-objetivos .objetivo-2 {
-  background-image: url(../../public/images/home/3-home.svg);
-  background-size: 100%; }
-
-.seccion-beneficios {
-  padding: 0 20px; }
-  .seccion-beneficios .beneficio {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    padding: 2rem 2em; }
-    .seccion-beneficios .beneficio:nth-child(odd) {
-      background: #dcd8dc; }
-    .seccion-beneficios .beneficio img {
-      margin-right: 2em;
-      width: auto; }
-    .seccion-beneficios .beneficio div {
-      width: 100%; }
-
-.entregables {
-  background: #F1F1F1;
-  box-shadow: 43px 41px 123px 71px #f1f1f1; }
-  .entregables .entre_title h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .entregables .entre_title h2 span {
-      position: relative; }
-      .entregables .entre_title h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
-
-.entre1 {
-  background: url("../../public/images/entregables/11- entregables.svg") no-repeat center top;
-  background-attachment: fixed !important; }
-
-.entre1,
-.entre4 {
-  background-size: cover;
-  height: 100vh; }
-
-.entre4 {
-  background: url("../../public/images/entregables/14- entregables.svg") no-repeat center top;
-  background-attachment: fixed !important; }
-
-.entre1
-.entre2,
-.entre3,
-.entre4,
-.entre5,
-.entre6 {
-  display: relative; }
-
-.entre2,
-.entre5 {
-  padding-right: 30px;
-  padding-left: 0; }
-
-.entre3,
-.enetre6 {
-  padding-right: 0;
-  padding-left: 30px; }
-
-.entre6 {
-  height: 700px; }
-
-.entre_sub1,
-.entre_sub2,
-.entre_sub3,
-.entre_sub4,
-.entre_sub5,
-.entre_sub6 {
-  background: rgba(90, 157, 202, 0.8);
-  color: white;
-  font-family: lucida_sansregular;
-  font-weight: bold;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  top: 13%; }
-
-.entre_sub1,
-.entre_sub4 {
-  justify-content: center;
-  height: 20%;
-  width: 40%;
-  margin: 0px;
-  padding: 0px; }
-
-.entre_sub2,
-.entre_sub3,
-.entre_sub5,
-.entre_sub6 {
-  height: 20%;
-  width: 80%;
-  padding: 20px; }
-
-.nos_seccion {
-  padding: 0 20px; }
-  .nos_seccion .nosotros_title h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .nos_seccion .nosotros_title h2 span {
-      position: relative; }
-      .nos_seccion .nosotros_title h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
-
-.nos-img {
-  height: 80%;
-  text-align: center; }
-
-.nos_article,
-.sec-img {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.negocios_title {
-  font-family: lucida_sansdemibold;
-  padding: 0 40px; }
-
-.negocios_seccion1,
-.negocios_seccion2 {
-  font-family: lucida_sansregular;
-  text-align: center;
-  padding: 5%; }
-
-.negocios_seccion1 {
-  background: #F1F1F1; }
-
-.negocios_seccion2 {
-  background: #6997af;
-  color: white; }
-
-.t_negocio1,
-.t_negocio2 {
-  font-size: 1.2em; }
-
-.valores_title {
-  font-family: lucida_sansdemibold;
-  padding: 0 40px; }
-
-.valores1,
-.valores2 {
-  padding: 0 10%; }
-
-.valores1 li,
-.valores2 li {
-  display: inline-block;
-  font-family: lucida_sansregular;
-  font-size: 1.3em;
-  padding-left: 3rem;
-  background: url("../../public/images/valores/16-valores.svg") no-repeat center left/1.5rem; }
-
-.contacto {
-  padding: 0 20px; }
-  .contacto .contact_title h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .contacto .contact_title h2 span {
-      position: relative; }
-      .contacto .contact_title h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
-
-textarea {
-  resize: none;
-  min-height: 250px; }
-
-.importante {
-  color: #5d739a; }
-
-.form-boton {
-  background: #8784c7;
-  border-radius: 10px;
-  color: #fff; }
-
-.form-boton:hover {
-  background: #0069D9;
-  color: #fff; }
-
-.direccion {
-  padding-right: 30%; }
-
-.contacto_form {
-  padding-left: 5%; }
-
-.p__conacto > a {
-  color: #8c8c8c; }
-
-.p__conacto > a:hover {
-  text-decoration: none;
-  color: #69a020; }
-
-.foot {
-  height: 70px;
-  margin-top: 100px;
-  padding: 0 20px; }
-
-.foot_empresa {
-  display: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.foot__marca {
-  font-family: lucida_sansregular;
-  font-size: .9em;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 80%;
-  height: 34%;
-  margin: auto; }
-
-.foot_enlaces {
-  font-family: lucida_sansregular;
-  font-size: .9em;
-  list-style: none;
-  margin: 0;
-  text-align: justify;
-  padding: 0;
-  width: 100%; }
-
-.foot_enlaces li {
-  display: inline-block;
-  color: #8c8c8c; }
-
-.foot_enlaces a {
-  text-decoration: none;
-  color: #8c8c8c;
-  padding: .8em; }
-
-.foot_enlaces a:hover {
-  color: #69a020; }
-
-.foot_social {
-  list-style: none; }
-
-.foot_social a {
-  margin: 0 .5rem; }
-
-@media (max-width: 768px) {
-  .contenedor-banner-copy {
-    height: auto;
-    margin-top: 12vh; }
-    .contenedor-banner-copy .copy {
-      color: #8c8c8c;
-      position: relative; } }
-@media (max-width: 576px) {
-  .seccion-beneficios .beneficio h4 {
-    font-size: 17px; }
-  .seccion-beneficios .beneficio p {
-    display: none; } }
-
-/*# sourceMappingURL=estilos.css.map */
+Backtrace:
+C:\Users\SchneiderDoom\Documents\Projects\proyectoLakmiOficial\LakmiSystemsWeb\estilos\sass\estilos.scss:81
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files/Koala/bin/sass:22:in `load'
+C:/Program Files/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...t \"entregables\"\": expected \"{\", was \";\"\A         on line 81 of C:\Users\SchneiderDoom\Documents\Projects\proyectoLakmiOficial\LakmiSystemsWeb\estilos\sass\estilos.scss\A \A 76: @import \"header\";\A 77: @import \"banner&copy\";\A 78: @import \"objetivos\";\A 79: @import \"beneficios\";\A 80: <<<<<<< HEAD\A 81: @import \"entregables\";\A 82: @import \"nosotros\";\A 83: @import \"principiosNegocio\";\A 84: @import \"valores\";\A 85: @import \"contacto\";\A 86: @import \"footer\";"; }

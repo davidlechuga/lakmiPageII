@@ -22,7 +22,7 @@
       <link rel="stylesheet" href="estilos/css/estilos.css">
       <title>Lakmi Systems</title>
    </head>
-   <body>
+   <body data-spy="scroll" data-target="s-nav">
 
       <div class="container-fluid contenedor-principal">
 
@@ -32,12 +32,12 @@
             <div class="col-5 col-sm-4 col-md-3 col-lg-2 contenedor-logo">
                <img class="img-logo img-fluid" src="public/images/logo/Logo.svg" alt="">
             </div>
-            <div class="col-auto d-none d-md-block contenedor-nav">
+            <div class="col-auto d-none d-md-block contenedor-nav" id="s-nav">
                <nav class="nav">
                   <a class="nav-link" href="">Inicio</a>
                   <a class="nav-link" href="">Nosotros</a>
-                  <a class="nav-link" href="">Servicios</a>
-                  <a class="nav-link" href="">Beneficios</a>
+                  <a class="nav-link" href="#servicios">Servicios</a>
+                  <a class="nav-link" href="#beneficios">Beneficios</a>
                   <a class="nav-link btn btn-contacto " href="">Contacto</a>
                </nav>
             </div>
@@ -71,7 +71,7 @@
 
          <!-- SECCION BENEFICIOS -->
          <!-- section -->
-         <section class="row seccion-beneficios">
+         <section class="row seccion-beneficios" id="beneficios">
             <div class="col-12 titulo-seccion">
                <h2><span>BENEFICIOS</span></h2>
                <h3>Beneficios de la Administración Empresarial de Riesgos</h3>
@@ -114,70 +114,101 @@
             <div class="col-12">
                <h3>Beneficios de un sistema de control interno efectivo</h3>
             </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <h4>Confianza sobre la consecución de objetivos, reducción de riesgos y retroalimentación sobre el funcionamiento de la empresa</h4>
-               <p>Proporciona a la administración y a la alta dirección una mayor confianza respecto al logro de los objetivos, brindando retroalimentación sobre el funcionamiento de la empresa u organización y ayudando a reducir la materialización de riesgos.</p>
+            <div class="col-12 beneficio">
+               <img src="public/images/iconos/icono6.svg" alt="">
+               <div>
+                  <h4>Confianza sobre la consecución de objetivos, reducción de riesgos y retroalimentación sobre el funcionamiento de la empresa</h4>
+                  <p>Proporciona a la administración y a la alta dirección una mayor confianza respecto al logro de los objetivos, brindando retroalimentación sobre el funcionamiento de la empresa u organización y ayudando a reducir la materialización de riesgos.</p>
+               </div>
             </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <h4>Acceso a financiamiento y capacidad para cumplir con las responsabilidades asociadas</h4>
-               <p>Brinda la capacidad de cumplir con ciertos requisitos para acceder a fuentes de financiamiento (incluyendo a los mercados de capital), proporcionando innovación impulsada por el capital y crecimiento económico. Adicionalmente ayuda a cumplir con las responsabilidades que acompañan el acceso al financiamiento, como el efectuar informes oportunos y confiables para accionistas, acreedores, patrocinadores, reguladores y otras partes interesadas, con las que la empresa u organización tiene relaciones contractuales directas.</p>
+            <div class="col-12 beneficio">
+               <img src="public/images/iconos/icono7.svg" alt="">
+               <div>
+                  <h4>Acceso a financiamiento y capacidad para cumplir con las responsabilidades asociadas</h4>
+                  <p>Brinda la capacidad de cumplir con ciertos requisitos para acceder a fuentes de financiamiento (incluyendo a los mercados de capital), proporcionando innovación impulsada por el capital y crecimiento económico. Adicionalmente ayuda a cumplir con las responsabilidades que acompañan el acceso al financiamiento, como el efectuar informes oportunos y confiables para accionistas, acreedores, patrocinadores, reguladores y otras partes interesadas, con las que la empresa u organización tiene relaciones contractuales directas.</p>
+               </div>
             </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <h4>Otros beneficios asociados a un control interno efectivo</h4>
-               <ol>
-                  <li>Capacidad y confianza para comunicar con precisión el rendimiento del negocio con socios, clientes y otras partes interesadas, lo que respalda la continuidad de las relaciones.</li>
-                  <li>Informes confiables que apoyan la administración y la toma de decisiones de la alta dirección en asuntos tales como precios de productos, inversión de capital y despliegue de recursos.</li>
-                  <li>Una base para decisiones donde se necesita un juicio altamente subjetivo y sustancial.</li>
-                  <li>Mecanismos consistentes para procesar transacciones, respaldar la calidad de la información y las comunicaciones en toda la organización, mejorar la rapidez y confiabilidad con la que se inician y liquidan las transacciones, y proporcionar un registro integro y exacto de los datos.</li>
-                  <li>Mayor eficiencia en funciones y procesos.</li>
-               </ol>
+            <div class="col-12 beneficio">
+               <img src="public/images/iconos/icono8.svg" alt="">
+               <div>
+                  <h4>Otros beneficios asociados a un control interno efectivo</h4>
+                  <ol>
+                     <li>Capacidad y confianza para comunicar con precisión el rendimiento del negocio con socios, clientes y otras partes interesadas, lo que respalda la continuidad de las relaciones.</li>
+                     <li>Informes confiables que apoyan la administración y la toma de decisiones de la alta dirección en asuntos tales como precios de productos, inversión de capital y despliegue de recursos.</li>
+                     <li>Una base para decisiones donde se necesita un juicio altamente subjetivo y sustancial.</li>
+                     <li>Mecanismos consistentes para procesar transacciones, respaldar la calidad de la información y las comunicaciones en toda la organización, mejorar la rapidez y confiabilidad con la que se inician y liquidan las transacciones, y proporcionar un registro integro y exacto de los datos.</li>
+                     <li>Mayor eficiencia en funciones y procesos.</li>
+                  </ol>
+               </div>
             </div>
          </section>
          <!-- /section -->
 
          <!-- SECCION SERVICIOS -->
          <!-- section -->
-         <section class="row seccion-servicios">
+         <section class="row seccion-servicios justify-content-around" id="servicios">
             <div class="col-12 titulo-seccion">
                <h2><span>SERVICIOS</span></h2>
-               <h3>Nuestra oferta de valor</h3>
+               <h3>Nuestra oferta de valor:</h3>
             </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <div class="">
-                  <h4>Diagnóstico</h4>
-                  <p>Proporcionamos un diagnóstico completo y preciso del sistema de control interno que se encuentra operando actualmente en la empresa u organización. Nuestro diagnostico incluye la detección de componentes y principios del control interno que no están presentes y funcionando en la empresa u organización, con base en un marco integral de control interno; la identificación de aspectos de mejora en los componentes de control ya existentes; así como una evaluación genérica y de alto nivel del diseño e implementación de una selección de actividades de control.</p>
+            <div class="col-12 col-md-7 col-lg-5 servicio">
+               <div class="caja-servicio">
+                  <div class="cara frontal">
+                     <img class="img-fluid" src="public/images/iconos/icono12.svg" alt="">
+                     <h4>Diagnóstico</h4>
+                  </div>
+                  <div class="cara posterior">
+                     <h5>Diagnóstico</h5>
+                     <p>Proporcionamos un diagnóstico completo y preciso del sistema de control interno que se encuentra operando actualmente en la empresa u organización. Nuestro diagnostico incluye la detección de componentes y principios del control interno que no están presentes y funcionando en la empresa u organización, con base en un marco integral de control interno; la identificación de aspectos de mejora en los componentes de control ya existentes; así como una evaluación genérica y de alto nivel del diseño e implementación de una selección de actividades de control.</p>
+                  </div>
                </div>
             </div>
-            <div class="col-12">
-               <div class="">
-                  <h4>Diseño del sistema de control interno</h4>
-                  <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño del sistema de control interno cubriendo todos los componentes del Marco Integrado de Control Interno del Committee of Sponsoring Organizations of the Treadway Commission (“COSO”). El diseño incluye la documentación de los procesos de negocio y la preparación de arreglos de objetivos, riesgos y controles.</p>
-               </div>
-               <img src="" alt="">
-            </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <div class="">
-                  <h4>Diseño e implementación inicial de controles asociados a los objetivos de reporte de información financiera.</h4>
-                  <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño e implementación de controles asociados al proceso de preparación de estados financieros de conformidad con normas de información financiera; declaraciones fiscales; presupuestos u otros reportes empleados en el proceso de toma de decisiones de la administración.</p>
+            <div class="col-12 col-md-7 col-lg-5 servicio">
+               <div class="caja-servicio">
+                  <div class="cara frontal">
+                     <img src="public/images/iconos/icono15.svg" alt="">
+                     <h4>Diseño del sistema de control interno</h4>  
+                  </div>
+                  <div class="cara posterior">
+                     <h5>Diseño del sistema de control interno</h5>
+                     <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño del sistema de control interno cubriendo todos los componentes del Marco Integrado de Control Interno del Committee of Sponsoring Organizations of the Treadway Commission (“COSO”). El diseño incluye la documentación de los procesos de negocio y la preparación de arreglos de objetivos, riesgos y controles.</p>
+                  </div>
                </div>
             </div>
-            <div class="col-12">
-               <div class="">
-                  <h4>La implementación inicial de controles asociados a objetivos de reporte de información financiera</h4>
-                  <p>Ayudamos a la administración y los responsables de las principales funciones y procesos de la empresa u organización en la implementación de controles asociados a objetivos de reporte de información financiera interna y externa. Este servicio incluye la elaboración de plantillas de papeles de trabajo y capacitación a los responsables del sistema de información financiera.</p>
+            <div class="col-12 col-md-7 col-lg-5 servicio">
+               <div class="caja-servicio">
+                  <div class="cara frontal">
+                     <img src="public/images/iconos/icono11.svg" alt="">
+                     <h4>Diseño e implementación inicial de controles asociados a los objetivos de reporte de información financiera</h4>
+                  </div>
+                  <div class="cara posterior">
+                     <h5>Diseño e implementación inicial de controles asociados a los objetivos de reporte de información financiera.</h5>
+                     <p>Auxiliamos a la administración en sus funciones relacionadas con el diseño e implementación de controles asociados al proceso de preparación de estados financieros de conformidad con normas de información financiera; declaraciones fiscales; presupuestos u otros reportes empleados en el proceso de toma de decisiones de la administración.</p>
+                  </div>
                </div>
-               <img src="" alt="">
             </div>
-            <div class="col-12">
-               <img src="" alt="">
-               <div class="">
-                  <h4>Evaluación de aspectos técnicos contables</h4>
-                  <p>Auxiliamos a la administración en el proceso de evaluación del tratamiento contable en el reconocimiento inicial y posterior de transacciones, transformaciones internas y otros eventos que afectan económicamente a la empresa, de conformidad con el marco de información financiera que le sea aplicable.</p>
+            <div class="col-12 col-md-7 col-lg-5 servicio">
+               <div class="caja-servicio">
+                  <div class="cara frontal">
+                     <img src="public/images/iconos/icono10.svg" alt="">
+                     <h4>La implementación inicial de controles asociados a objetivos de reporte de información financiera</h4>
+                  </div>
+                  <div class="cara posterior">
+                     <h5>La implementación inicial de controles asociados a objetivos de reporte de información financiera</h5>
+                     <p>Ayudamos a la administración y los responsables de las principales funciones y procesos de la empresa u organización en la implementación de controles asociados a objetivos de reporte de información financiera interna y externa. Este servicio incluye la elaboración de plantillas de papeles de trabajo y capacitación a los responsables del sistema de información financiera.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-5 servicio">
+               <div class="caja-servicio">
+                  <div class="cara frontal">
+                     <img src="public/images/iconos/icono9.svg" alt="">
+                     <h4>Evaluación de aspectos técnicos contables</h4>
+                  </div>
+                  <div class="cara posterior">
+                     <h5>Evaluación de aspectos técnicos contables</h5>
+                     <p>Auxiliamos a la administración en el proceso de evaluación del tratamiento contable en el reconocimiento inicial y posterior de transacciones, transformaciones internas y otros eventos que afectan económicamente a la empresa, de conformidad con el marco de información financiera que le sea aplicable.</p>
+                  </div>
                </div>
             </div>
             <div class="col-12">

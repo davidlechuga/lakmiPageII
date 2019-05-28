@@ -1,0 +1,74 @@
+
+
+.seccion-servicios {
+  background: $fondo-claro-3;
+  .servicio {
+    margin: 25px;
+    // width: 500px;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+    color: $fondo-claro-1;
+    &:nth-last-of-type(odd) .cara {
+      background: $resaltado-8;
+    }
+    &:nth-last-of-type(even) .cara {
+      background: $resaltado-4;
+    }
+    .caja-servicio {
+      transform-style: preserve-3d;
+      transition: all 0.5s linear;
+      width: 100%;
+      height: 100%;
+      h4, h5 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 2rem;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 20%;
+          top: 120%;
+          width: 60%;
+          border-bottom: 1px solid white;
+        }
+      }
+      .cara {
+        position: absolute;
+        backface-visibility: hidden;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        padding: 2rem 1rem;
+        &.frontal {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 35%;
+            margin-bottom: 2.5rem;
+          }
+        }
+        &.posterior {
+          transform: rotateY(180deg);
+        }
+      
+      }
+    }
+    &:hover .caja-servicio {
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
+ 

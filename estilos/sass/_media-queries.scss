@@ -8,6 +8,12 @@
          position: relative;
       }
    }
+   .servicio {
+      margin: 1rem 0;
+      .cara {
+         overflow: auto;
+      }
+   }
 }
 @media (max-width: 576px){
    .seccion-beneficios {
@@ -15,8 +21,16 @@
          h4 {
             font-size: 17px;
          }
-         p {
+         p, ol {
             display: none;
+         }
+      }
+   }
+   .servicio {
+      height: 300px;
+      .cara {
+         img {
+            margin: 0;
          }
       }
    }
