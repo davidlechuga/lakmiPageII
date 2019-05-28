@@ -37,20 +37,32 @@ body {
   border: none;
 }
 
-.titulo-seccion h2, .titulo-seccion h3 {
-  margin: 2rem 0;
+.titulo-seccion h2 {
   text-align: center;
-}
-.titulo-seccion h2 span, .titulo-seccion h3 span {
+  margin: 2rem 0;
   position: relative;
 }
-.titulo-seccion h2 span::after, .titulo-seccion h3 span::after {
+.titulo-seccion h2::after {
   content: "";
   position: absolute;
-  bottom: -30%;
-  right: 15%;
-  width: 75%;
+  left: 40%;
+  top: 120%;
+  width: 20%;
   border: 1px solid #8784c7;
+}
+
+.subtitulo-h3 h3 {
+  text-align: center;
+  position: relative;
+  margin: 2rem 0;
+}
+.subtitulo-h3 h3::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 120%;
+  width: 60%;
+  border-bottom: 1px solid #8784c7;
 }
 
 .subtitulo-seccion h4, .subtitulo-seccion h5 {
@@ -136,7 +148,7 @@ body {
 }
 .seccion-beneficios .beneficio img {
   margin-right: 2em;
-  width: auto;
+  width: 28%;
 }
 .seccion-beneficios .beneficio div {
   width: 100%;
@@ -145,8 +157,24 @@ body {
 .seccion-servicios {
   background: #f1f1f1;
 }
+.seccion-servicios .titulo-servicios {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.seccion-servicios .titulo-servicios h2 {
+  width: 100%;
+  text-align: center;
+}
+.seccion-servicios .titulo-servicios h2 a {
+  width: 80%;
+  border-radius: 50px;
+  line-height: 40px;
+  background: #8784c7;
+  border: none;
+}
 .seccion-servicios .servicio {
-  margin: 25px;
+  margin: 25px 0;
   height: 400px;
   position: relative;
   perspective: 1000px;
@@ -188,7 +216,23 @@ body {
 .seccion-servicios .servicio:hover .caja-servicio {
   transform: rotateY(180deg);
 }
-.seccion-servicios .titulo-seccion img {
+.seccion-servicios .contenedor-servicios-2 .servicio {
+  height: 600px;
+}
+.seccion-servicios .contenedor-servicios-2 .servicio .caja-servicio .cara {
+  padding: 5rem 1rem;
+  overflow: auto;
+}
+.seccion-servicios .contenedor-servicios-2 .servicio .caja-servicio .frontal img {
+  width: 15%;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .contenedor-informes-externos {
+  display: flex;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .contenedor-informes-externos > li {
+  margin: 1rem;
+}
+.seccion-servicios .subtitulo-h3 img {
   min-width: 100%;
 }
 .seccion-servicios .lista-areas-especializadas {
@@ -468,6 +512,14 @@ textarea {
   margin: 0 0.5rem;
 }
 
+@media (max-width: 1200px) {
+  .servicio {
+    margin: 1rem 0;
+  }
+  .servicio .cara {
+    overflow: auto;
+  }
+}
 @media (max-width: 768px) {
   .contenedor-banner-copy {
     height: auto;
@@ -476,13 +528,6 @@ textarea {
   .contenedor-banner-copy .copy {
     color: #8c8c8c;
     position: relative;
-  }
-
-  .servicio {
-    margin: 1rem 0;
-  }
-  .servicio .cara {
-    overflow: auto;
   }
 }
 @media (max-width: 576px) {
