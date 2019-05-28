@@ -100,7 +100,7 @@ body {
 
 /*@import "servicios";*/
 .entregables {
-  background: #dcd8dc;
+  background: F1F1F1;
   box-shadow: 43px 41px 123px 71px #f1f1f1; }
   .entregables .entre_title h2 {
     font-weight: bold;
@@ -218,7 +218,7 @@ body {
   padding: 5%; }
 
 .negocios_seccion1 {
-  background: #dcd8dc; }
+  background: F1F1F1; }
 
 .negocios_seccion2 {
   background: #6997af;
