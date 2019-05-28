@@ -25,6 +25,14 @@ textarea {
  	min-height: 250px;
 }
 
+.mapa_google {
+	width: 100%;
+}
+
+.mapa_google iframe {
+	width: 100%;
+	height: 400px;
+}
 
 .importante {
 	color: $resaltado-3;
