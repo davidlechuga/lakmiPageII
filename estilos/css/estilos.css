@@ -142,7 +142,67 @@ body {
   width: 100%;
 }
 
-/*@import "servicios";*/
+.seccion-servicios {
+  background: #f1f1f1;
+}
+.seccion-servicios .servicio {
+  margin: 25px;
+  height: 400px;
+  position: relative;
+  perspective: 1000px;
+  color: white;
+}
+.seccion-servicios .servicio:nth-last-of-type(odd) .cara {
+  background: #2a84c2;
+}
+.seccion-servicios .servicio:nth-last-of-type(even) .cara {
+  background: #6997af;
+}
+.seccion-servicios .servicio .caja-servicio {
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+  width: 100%;
+  height: 100%;
+}
+.seccion-servicios .servicio .caja-servicio .cara {
+  position: absolute;
+  backface-visibility: hidden;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal img {
+  width: 35%;
+  margin-bottom: 2.5rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.posterior {
+  transform: rotateY(180deg);
+}
+.seccion-servicios .servicio:hover .caja-servicio {
+  transform: rotateY(180deg);
+}
+.seccion-servicios .titulo-seccion img {
+  min-width: 100%;
+}
+.seccion-servicios .lista-areas-especializadas {
+  padding-left: 5%;
+  margin-top: 2rem;
+}
+.seccion-servicios .lista-areas-especializadas h4 {
+  padding: 5%;
+  font-size: 20px;
+}
+.seccion-servicios .contenido-areas-especializadas {
+  margin-top: 2rem;
+}
+
 .entregables {
   background: F1F1F1;
   box-shadow: 43px 41px 123px 71px #f1f1f1;
