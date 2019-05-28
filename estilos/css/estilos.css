@@ -335,10 +335,25 @@ textarea {
     font-size: 17px; }
   .seccion-beneficios .beneficio p, .seccion-beneficios .beneficio ol {
     display: none; }
+  .seccion-beneficios .contacto_info .direccion {
+    padding: 0;
+    text-align: center; }
+  .seccion-beneficios .valores .valores2 li {
+    display: block; }
 
   .servicio {
     height: 300px; }
     .servicio .cara img {
-      margin: 0; } }
+      margin: 0; }
+
+  .contacto_info .direccion {
+    padding: 0;
+    text-align: center; }
+
+  .valores .valores1,
+  .valores .valores2 {
+    display: block;
+    font-size: 1rem;
+    padding: 1em; } }
 
 /*# sourceMappingURL=estilos.css.map */

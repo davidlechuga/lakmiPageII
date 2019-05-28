@@ -25,6 +25,18 @@
             display: none;
          }
       }
+      .contacto_info {
+      .direccion {
+         padding: 0;
+         text-align: center;
+      }  
+   }
+
+   .valores {
+      .valores2 li {
+         display: block;
+      }
+    }
    }
    .servicio {
       height: 300px;
@@ -32,6 +44,22 @@
          img {
             margin: 0;
          }
+      }
+   }
+   .contacto_info {
+      .direccion {
+         padding: 0;
+         text-align: center;
+      }  
+
+   }
+
+   .valores{
+      .valores1,
+      .valores2 {
+         display: block;
+         font-size: 1rem;
+         padding: 1em;
       }
    }
 }
