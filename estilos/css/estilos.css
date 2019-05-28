@@ -302,15 +302,18 @@ textarea {
 .foot_enlaces li {
   display: inline-block;
   color: #8c8c8c;
-  padding: 0 .8em; }
+  padding: 0 .6em; }
 
 .foot_enlaces a {
   text-decoration: none;
   color: #8c8c8c;
-  padding-right: .4em; }
+  padding-right: 0.3em; }
 
 .foot_enlaces a:hover {
   color: #69a020; }
+
+.foot_enlaces .con_linea:before {
+  content: "|         "; }
 
 .foot_social {
   list-style: none; }
