@@ -1,3 +1,15 @@
+@media (max-width: 1200px){
+   
+}
+@media (max-width: 992px){
+   .servicio {
+      margin: 1rem 0;
+      .cara {
+         overflow: auto;
+      }
+   }
+}
+
 @media (max-width: 768px){
    .contenedor-banner-copy {
       height: auto;
