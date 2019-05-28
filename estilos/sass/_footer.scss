@@ -1,0 +1,41 @@
+.foot {
+	height: 80px;
+	margin-top: 100px;
+	padding: 0 20px;
+}
+
+.foot__marca,
+.foot_enlaces {
+	font-family: lucida_sansregular;
+	font-size: .9em;
+}
+
+
+.foot_enlaces {
+    padding: 0;
+}
+
+.foot_enlaces li {
+	display: inline-block;
+	color: $links;
+	padding: 0 .8em;
+}
+
+.foot_enlaces a {
+	text-decoration: none;
+	color: $links;
+	padding-right: .4em;
+} 
+
+.foot_enlaces a:hover {
+	color: $links-activo;
+}
+
+.foot_social {
+	list-style: none;
+}
+
+.foot_social a {
+	margin: 0 .5rem;
+}
+
