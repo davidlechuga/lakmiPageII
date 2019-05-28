@@ -98,54 +98,7 @@ body {
     .seccion-beneficios .beneficio div {
       width: 100%; }
 
-.seccion-servicios {
-  background: #f1f1f1; }
-  .seccion-servicios .servicio {
-    margin: 25px;
-    height: 400px;
-    position: relative;
-    perspective: 1000px;
-    color: white; }
-    .seccion-servicios .servicio:nth-last-of-type(odd) .cara {
-      background: #2a84c2; }
-    .seccion-servicios .servicio:nth-last-of-type(even) .cara {
-      background: #6997af; }
-    .seccion-servicios .servicio .caja-servicio {
-      transform-style: preserve-3d;
-      transition: all 0.5s linear;
-      width: 100%;
-      height: 100%; }
-      .seccion-servicios .servicio .caja-servicio h4, .seccion-servicios .servicio .caja-servicio h5 {
-        text-align: center;
-        position: relative;
-        margin-bottom: 2rem; }
-        .seccion-servicios .servicio .caja-servicio h4::after, .seccion-servicios .servicio .caja-servicio h5::after {
-          content: "";
-          position: absolute;
-          left: 20%;
-          top: 120%;
-          width: 60%;
-          border-bottom: 1px solid white; }
-      .seccion-servicios .servicio .caja-servicio .cara {
-        position: absolute;
-        backface-visibility: hidden;
-        padding: 2rem;
-        width: 100%;
-        height: 100%;
-        padding: 2rem 1rem; }
-        .seccion-servicios .servicio .caja-servicio .cara.frontal {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center; }
-          .seccion-servicios .servicio .caja-servicio .cara.frontal img {
-            width: 35%;
-            margin-bottom: 2.5rem; }
-        .seccion-servicios .servicio .caja-servicio .cara.posterior {
-          transform: rotateY(180deg); }
-    .seccion-servicios .servicio:hover .caja-servicio {
-      transform: rotateY(180deg); }
-
+/*@import "servicios";*/
 @media (max-width: 768px) {
   .contenedor-banner-copy {
     height: auto;
