@@ -18,17 +18,21 @@
 .foot_enlaces li {
 	display: inline-block;
 	color: $links;
-	padding: 0 .8em;
+	padding: 0 .6em;
 }
 
 .foot_enlaces a {
 	text-decoration: none;
 	color: $links;
-	padding-right: .4em;
+	padding-right: 0.3em;
 } 
 
 .foot_enlaces a:hover {
 	color: $links-activo;
+}
+
+.foot_enlaces .con_linea:before {
+	content: "|         ";
 }
 
 .foot_social {
