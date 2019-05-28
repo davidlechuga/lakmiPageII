@@ -83,12 +83,18 @@ body {
 
 .seccion-beneficios {
   padding: 0 20px; }
-
-.beneficio {
-  display: flex;
-  align-items: center; }
-  .beneficio img {
-    margin-right: 2em; }
+  .seccion-beneficios .beneficio {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem 2em; }
+    .seccion-beneficios .beneficio:nth-child(odd) {
+      background: #dcd8dc; }
+    .seccion-beneficios .beneficio img {
+      margin-right: 2em;
+      width: auto; }
+    .seccion-beneficios .beneficio div {
+      width: 100%; }
 
 .entregables {
   background: #F1F1F1;
@@ -337,5 +343,10 @@ textarea {
     .contenedor-banner-copy .copy {
       color: #8c8c8c;
       position: relative; } }
+@media (max-width: 576px) {
+  .seccion-beneficios .beneficio h4 {
+    font-size: 17px; }
+  .seccion-beneficios .beneficio p {
+    display: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
