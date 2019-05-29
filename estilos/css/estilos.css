@@ -88,6 +88,11 @@ body {
 }
 .header .contenedor-nav .nav a {
   color: #8c8c8c;
+  position: relative;
+}
+.header .contenedor-nav .nav a:hover {
+  color: #69a020;
+  border-bottom: 1px solid #69a020;
 }
 .header .contenedor-nav .nav a:last-child {
   color: white;

@@ -9,6 +9,11 @@
    }
    .contenedor-nav .nav a{
       color: $links;
+      position: relative;
+      &:hover {
+         color: $links-activo;
+         border-bottom: 1px solid $links-activo;
+      }
    }
    .contenedor-nav .nav a:last-child{
       color: $fondo-claro-1;
