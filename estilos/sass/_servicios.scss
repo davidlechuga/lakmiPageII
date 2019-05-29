@@ -1,4 +1,6 @@
-
+.list-group-item.active {
+  background: $resaltado-4 !important;
+}
 
 .seccion-servicios {
   background: $fondo-claro-3;
@@ -95,8 +97,12 @@
       }
     }
   }
-  .subtitulo-h3 img {
-    min-width: 100%;
+  .subtitulo-h3 + .img-especializadas {
+    background: url(../../public/images/home/9-serviciosavanzados.svg) no-repeat center top;
+    background-attachment: fixed !important;
+    background-size: cover;
+  	height: 60vh;
+
   }
   .lista-areas-especializadas {
     padding-left: 5%;

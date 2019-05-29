@@ -114,9 +114,6 @@ body {
 .contenedor-banner-copy .copy h1 {
   font-family: "lucida_sansdemibold";
 }
-.contenedor-banner-copy .copy p {
-  font-size: 25px;
-}
 
 .contenedor-objetivos .objetivo-1, .contenedor-objetivos .objetivo-2 {
   height: 43vh;
@@ -157,6 +154,10 @@ body {
 }
 .seccion-beneficios .beneficio div {
   width: 100%;
+}
+
+.list-group-item.active {
+  background: #6997af !important;
 }
 
 .seccion-servicios {
@@ -247,8 +248,11 @@ body {
 .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .contenedor-informes-externos > li {
   margin: 1rem;
 }
-.seccion-servicios .subtitulo-h3 img {
-  min-width: 100%;
+.seccion-servicios .subtitulo-h3 + .img-especializadas {
+  background: url(../../public/images/home/9-serviciosavanzados.svg) no-repeat center top;
+  background-attachment: fixed !important;
+  background-size: cover;
+  height: 60vh;
 }
 .seccion-servicios .lista-areas-especializadas {
   padding-left: 5%;
@@ -561,6 +565,9 @@ textarea {
   .contenedor-banner-copy .copy {
     color: #8c8c8c;
     position: relative;
+  }
+  .contenedor-banner-copy .copy h1 {
+    font-size: 30px;
   }
 
   .servicio {
