@@ -207,21 +207,17 @@ body {
   .seccion-servicios .contenido-areas-especializadas {
     margin-top: 2rem; }
 
-.entregables {
-  box-shadow: 43px 41px 123px 71px #f1f1f1; }
-  .entregables .titulo_entre h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .entregables .titulo_entre h2 span {
-      position: relative; }
-      .entregables .titulo_entre h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
+.entregables h3 {
+  text-align: center;
+  position: relative;
+  margin: 2rem 0; }
+  .entregables h3::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    top: 120%;
+    width: 60%;
+    border-bottom: 1px solid #8784c7; }
 
 .entre1 {
   background: url("../../public/images/entregables/11- entregables.svg") no-repeat center top;
@@ -284,21 +280,17 @@ body {
 .entre_sub6 {
   width: 90%; }
 
-.nos_seccion {
-  padding: 0 20px; }
-  .nos_seccion .nosotros_title h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .nos_seccion .nosotros_title h2 span {
-      position: relative; }
-      .nos_seccion .nosotros_title h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
+.nos_seccion h2 {
+  text-align: center;
+  margin: 2rem 0;
+  position: relative; }
+  .nos_seccion h2::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 120%;
+    width: 20%;
+    border: 1px solid #8784c7; }
 
 .nos-img {
   height: 80%;
@@ -350,21 +342,17 @@ body {
   margin: 1em;
   list-style: none; }
 
-.contacto {
-  padding: 0 20px; }
-  .contacto .contact_title h2 {
-    font-weight: bold;
-    margin: 2rem 0;
-    text-align: center; }
-    .contacto .contact_title h2 span {
-      position: relative; }
-      .contacto .contact_title h2 span::after {
-        content: "";
-        position: absolute;
-        bottom: -30%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid #ad84c6; }
+.contacto h2 {
+  text-align: center;
+  margin: 2rem 0;
+  position: relative; }
+  .contacto h2::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 120%;
+    width: 20%;
+    border: 1px solid #8784c7; }
 
 textarea {
   resize: none;

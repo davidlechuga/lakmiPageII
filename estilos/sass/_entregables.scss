@@ -1,23 +1,17 @@
-.entregables { 
-	box-shadow: 43px 41px 123px 71px rgba(241,241,241,1);
-	.titulo_entre {
-		h2 {
-			font-weight: bold;
-			margin: 2rem 0;
-			text-align: center;
-			span {
-				position: relative;
-				&::after {
-					content: "";
-					position: absolute;
-					bottom: -30%;
-					left: 10%;
-					width: 80%;
-					border: 1px solid $resaltado-1;
-				}
-			}
-		}
-	}	
+.entregables{
+   h3 {
+      text-align: center;
+      position: relative;
+      margin: 2rem 0;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 20%;
+        top: 120%;
+        width: 60%;
+        border-bottom: 1px solid $resaltado-2;
+      }
+    }
 }
 
 
