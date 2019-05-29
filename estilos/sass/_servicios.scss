@@ -2,6 +2,7 @@
 
 .seccion-servicios {
   background: $fondo-claro-3;
+  padding-bottom: 2rem;
   .titulo-servicios {
     margin: 2rem 0;
     display: flex;
@@ -83,6 +84,9 @@
       }
     }
     .sub-servicio-2{
+      .fintech-colapsado {
+        color: $resaltado-8;
+      }
       .contenedor-informes-externos {
         display: flex;
         > li {
