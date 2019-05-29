@@ -136,7 +136,7 @@ body {
 }
 .contenedor-objetivos .objetivo-2 {
   background-image: url(../../public/images/home/3-home.svg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .seccion-beneficios {
@@ -308,7 +308,6 @@ body {
 .entre6 {
   height: 600px;
   padding: 0;
-  margin: 1em 0;
   background-size: 100%;
 }
 
@@ -321,11 +320,13 @@ body {
 }
 
 .entre5 {
-  background: url("../../public/images/entregables/13-entregables.svg") no-repeat;
+  background: url("../../public/images/entregables/13-entregables.svg");
+  background-size: cover;
 }
 
 .entre6 {
-  background: url("../../public/images/entregables/14-entregables.svg") no-repeat;
+  background: url("../../public/images/entregables/14-entregables.svg");
+  background-size: cover;
 }
 
 .entre_sub1,
