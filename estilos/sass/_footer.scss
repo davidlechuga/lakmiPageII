@@ -1,45 +1,45 @@
-.foot {
+.pie_pag {
 	height: 80px;
-	margin-top: 100px;
-	padding: 0 20px;
 }
 
-.foot__marca,
-.foot_enlaces {
-	font-family: lucida_sansregular;
-	font-size: .9em;
+.empresa {
+  	display: table;
 }
 
-
-.foot_enlaces {
-    padding: 0;
+.empresa .name_empresa {
+	display: table-cell;
+	margin: 0;
+	padding: 0 1rem;
+	vertical-align: middle;
 }
-
-.foot_enlaces li {
-	display: inline-block;
-	color: $links;
+ 
+.social a {
 	padding: 0 .6em;
 }
 
-.foot_enlaces a {
-	text-decoration: none;
+.menu-pie {
+	padding: 0;
+	padding-top: .9em;
+	margin: 0;
+}
+.menu-pie li {
+	display: inline-block;
 	color: $links;
-	padding-right: 0.3em;
+	padding:.6em;
+	margin: 0;
+}
+
+.menu-pie li a {
+	color: $links;
+	text-decoration: none;
+	padding-top: 1em;
 } 
 
-.foot_enlaces a:hover {
+.menu-pie a:hover {
 	color: $links-activo;
 }
 
-.foot_enlaces .con_linea:before {
+.menu-pie .linea:before {
 	content: "|         ";
-}
-
-.foot_social {
-	list-style: none;
-}
-
-.foot_social a {
-	margin: 0 .5rem;
 }
 
