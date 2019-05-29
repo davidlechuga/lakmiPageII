@@ -32,34 +32,10 @@
          text-align: center;
       }  
    }
-      
-   .entregables {
-      .entre2,
-      .entre3,
-      .entre5,
-      .entre6 {
-      padding: 0;
-      border: 0;
-      margin: 0;
-      width: 100%;
-      }
+    .entregables {
       .entre_sub1,
       .entre_sub4 {
-         font-size: 1.5em;
-         height: 15%;
-         margin: 0;
-         position: absolute;
-         padding: .5em;
-         width: 80%;
-      }
-      .entre2,
-      .entre5 {
-         margin-bottom: 3em;
-      }
-   }
-   .valores {
-      .valores2 li {
-         display: block;
+         width: 60%;
       }
    }
 }
@@ -95,44 +71,14 @@
       }  
 
    }
-   .entregables { 
-      .entre2,
-      .entre3,
-      .entre5,
-      .entre6 {
-      padding: 0;
-      border: 0;
-      }
-
-      .entre2,
-      .entre5 {
-         margin-bottom: 3em;
-      }
-
+    .entregables {
       .entre_sub1,
-      .entre_sub4 {
-         position: absolute;
-         width: 97%;
-         margin: 0;
-         padding: .5em;
-         font-size: 1.2em;
-         height: 15%;
-      }
-
       .entre_sub2,
       .entre_sub3,
+      .entre_sub4,
       .entre_sub5,
       .entre_sub6 {
-         font-size: 1.2em;
-         padding: 1em 1em;
-         position: absolute;
          width: 100%;
-         height: 15%;
-      } 
-
-      .entre_sub6 {
-         height: 10%;
-        
       }
    }
 }

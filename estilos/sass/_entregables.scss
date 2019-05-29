@@ -1,7 +1,6 @@
-.entregables {
-	background: F1F1F1; 
+.entregables { 
 	box-shadow: 43px 41px 123px 71px rgba(241,241,241,1);
-	.entre_title {
+	.titulo_entre {
 		h2 {
 			font-weight: bold;
 			margin: 2rem 0;
@@ -21,15 +20,10 @@
 	}	
 }
 
+
 .entre1 {
 	background: url("../../public/images/entregables/11- entregables.svg") no-repeat center top;
-  	background-attachment: fixed !important;
-}
-
-.entre1,
-.entre4 {
-	background-size: cover;
-  	height: 100vh;
+  	background-attachment: fixed !important;	
 }
 
 .entre4 {
@@ -37,30 +31,41 @@
 	background-attachment: fixed !important;
 }
 
-.entre1
+.entre1 {
+	margin-bottom: 2em;
+}
+
+.entre1,
+.entre4 {
+	background-size: cover;
+  	height: 100vh;
+}
 .entre2,
 .entre3,
-.entre4,
 .entre5,
 .entre6 {
-	display: relative;
+	height: 600px;
+	padding: 0;
+	margin: 1em 0;
+	background-size: 100%;
 }
 
-.entre2,
+.entre2 {
+	background: url("../../public/images/entregables/10-entregables.svg") ;
+}
+
+.entre3 {
+	background: url("../../public/images/entregables/12-entregables.svg");
+}
+
 .entre5 {
-	padding-right: 30px;
-	padding-left: 0;
-}
-
-.entre3,
-.enetre6 {
-	padding-right: 0;
-	padding-left: 30px;
+	background: url("../../public/images/entregables/13-entregables.svg") no-repeat;
 }
 
 .entre6 {
-	height: 700px;
+	background: url("../../public/images/entregables/14-entregables.svg") no-repeat;
 }
+
 
 .entre_sub1,
 .entre_sub2,
@@ -68,30 +73,22 @@
 .entre_sub4,
 .entre_sub5,
 .entre_sub6 {
-	background: rgba(90, 157, 202,.8);
 	color: $fondo-claro-1;
 	font-family: lucida_sansregular;
-	font-weight: bold;
-	position: absolute;
-	display: flex;
-   	align-items: center;
-   	top: 13%;
+	background: rgba(84, 148, 192, .8);
+	margin: 0;
+	margin-top: 13%;
+	padding: 1em 2em;
 }
 
 .entre_sub1,
 .entre_sub4 {
-	justify-content: center;
-	height: 20%;
 	width: 40%;
-	margin: 0px;
-   	padding: 0px;
 }
 
 .entre_sub2,
 .entre_sub3,
 .entre_sub5,
 .entre_sub6 {
-	height: 20%;
-	width: 80%;
-	padding: 20px;
+	width: 90%;
 }
