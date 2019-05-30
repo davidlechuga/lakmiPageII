@@ -256,6 +256,7 @@ body {
   margin: 1rem;
 }
 .seccion-servicios .subtitulo-h3 + .img-especializadas {
+  padding: 0;
   background: url(../../public/images/home/9-serviciosavanzados.svg) no-repeat center top;
   background-attachment: fixed !important;
   background-size: cover;
