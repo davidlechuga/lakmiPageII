@@ -7,6 +7,7 @@
   padding-bottom: 2rem;
   .titulo-servicios {
     margin: 2rem 0;
+    padding: 0 5.5%;
     display: flex;
     justify-content: space-around;
     h2 {
@@ -68,9 +69,13 @@
   }
   .contenedor-servicios-1 {
     display: block;
+    padding: 0 5.5%;
+    margin: 2rem 0;
   }
   .contenedor-servicios-2 {
     display: none;
+    padding: 0 5.5%;
+    margin: 2rem 0;
     .servicio {
       height: 600px;
       .caja-servicio {
@@ -105,7 +110,7 @@
 
   }
   .lista-areas-especializadas {
-    padding-left: 5%;
+    padding-left: 5.5%;
     margin-top: 2rem;
     h4 {
       padding: 5%;
@@ -114,6 +119,7 @@
   }
   .contenido-areas-especializadas {
     margin-top: 2rem;
+    padding-right: 5.5%;
   }
 }
 
