@@ -1,5 +1,5 @@
 .entregables{
-   h3 {
+   .titulo_entre {
       text-align: center;
       position: relative;
       margin: 2rem 0;
@@ -13,7 +13,6 @@
       }
     }
 }
-
 
 .entre1 {
 	background: url("../../public/images/entregables/11- entregables.svg") no-repeat center top;
@@ -40,7 +39,7 @@
 .entre6 {
 	height: 600px;
 	padding: 0;
-	// margin: 1em 0;
+	margin: 1em 0;
 	background-size: 100%;
 }
 
@@ -53,13 +52,11 @@
 }
 
 .entre5 {
-	background: url("../../public/images/entregables/13-entregables.svg");
-	background-size: cover;
+	background: url("../../public/images/entregables/13-entregables.svg") no-repeat;
 }
 
 .entre6 {
-	background: url("../../public/images/entregables/14-entregables.svg");
-	background-size: cover;
+	background: url("../../public/images/entregables/14-entregables.svg") no-repeat;
 }
 
 
