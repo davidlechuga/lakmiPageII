@@ -101,7 +101,7 @@ body {
 .contenedor-banner-copy {
   position: relative;
   min-height: 90vh;
-  margin-top: 9vh;
+  margin-top: 10vh;
 }
 .contenedor-banner-copy .banner img {
   min-width: 100%;
@@ -574,30 +574,26 @@ textarea {
   .contenedor-banner-copy .copy {
     transform: skewY(5deg);
     position: absolute;
-    top: 30%;
+    top: 10%;
   }
   .contenedor-banner-copy .copy h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
-
-  .contenedor-objetivos {
-    margin-top: 3rem;
+}
+@media (min-width: 992px) {
+  .contenedor-banner-copy {
+    position: relative;
+    min-height: 50vh;
+    margin-top: 9vh;
   }
 }
 @media (max-width: 992px) {
-  .servicio {
-    margin: 1rem 0;
-  }
-  .servicio .cara {
-    overflow: auto;
-  }
-
   .contenedor-banner-copy {
     height: auto;
     margin-top: 12vh;
   }
   .contenedor-banner-copy .copy {
-    top: 20%;
+    top: 30%;
   }
   .contenedor-banner-copy .copy h1 {
     font-size: 20px;

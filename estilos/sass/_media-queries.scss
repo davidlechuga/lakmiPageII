@@ -1,3 +1,6 @@
+@media (max-width: 1920px){
+   
+}
 @media (max-width: 1200px){
    .contenedor-banner-copy {
       background: url("../../public/images/banner/1-header.svg");
@@ -13,23 +16,24 @@
          // color: $links;
          transform: skewY(5deg);
          position: absolute;
-         top: 30%;
+         top: 10%;
          h1 {
-            font-size: 30px;
+            font-size: 40px;
          }
       }
    }
-   .contenedor-objetivos {
-      margin-top: 3rem;
+   // .contenedor-objetivos {
+   //    // margin-top: 3rem;
+   // }
+}
+@media (min-width: 992px){
+   .contenedor-banner-copy {
+      position: relative;
+      min-height: 50vh;
+      margin-top: 9vh;
    }
 }
 @media (max-width: 992px){
-   .servicio {
-      margin: 1rem 0;
-      .cara {
-         overflow: auto;
-      }
-   }
    .contenedor-banner-copy {
       height: auto;
       margin-top: 12vh;
@@ -37,7 +41,7 @@
       .copy {
          // color: $links;
          // position: relative;
-         top: 20%;
+         top: 30%;
          h1 {
             font-size: 20px;
          }
