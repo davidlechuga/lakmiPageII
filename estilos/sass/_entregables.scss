@@ -88,3 +88,22 @@
 .entre_sub6 {
 	width: 90%;
 }
+
+.boton_entre1, 
+.boton_entre2, 
+.boton_entre3,
+.boton_entre4,
+.boton_entre5,
+.boton_entre6  {
+	color: white;
+	font-size: 1em;
+}
+
+.boton_entre1:hover, 
+.boton_entre2:hover,
+.boton_entre3:hover,
+.boton_entre4:hover,
+.boton_entre5:hover,
+.boton_entre6:hover {
+	color: $fondo-claro-2;
+}
