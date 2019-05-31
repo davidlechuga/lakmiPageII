@@ -1,5 +1,5 @@
 .list-group-item.active {
-  background: $resaltado-4 !important;
+  background: $resaltado-8 !important;
 }
 
 .seccion-servicios {
@@ -58,6 +58,7 @@
           }
         }
         &.posterior {
+          font-size: 15px;
           transform: rotateY(180deg);
         }
       
@@ -76,21 +77,19 @@
     display: none;
     padding: 0 5.5%;
     margin: 2rem 0;
-    .servicio {
-      height: 600px;
-      .caja-servicio {
-        .cara {
-          padding: 5rem 1rem;
-          overflow: auto;
-        }
-        .frontal {
-          img {
-            width: 15%;
-          }
-        }
+    .sub-servicio-1, .sub-servicio-2 {
+      padding: 3rem;
+      background: $resaltado-4;
+      color: $fondo-claro-1;
+      img {
+        display: block;
+        margin: auto;
+        width: 30%;
+        margin-bottom: 2rem;
       }
     }
     .sub-servicio-2{
+      background: $resaltado-8;
       .fintech-colapsado {
         color: $resaltado-8;
       }

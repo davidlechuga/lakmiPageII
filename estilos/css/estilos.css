@@ -67,6 +67,7 @@ body {
 
 .header {
   background: white;
+<<<<<<< HEAD
   padding: 0 20px; }
   .header .contenedor-logo {
     padding: 10px 0; }
@@ -78,10 +79,29 @@ body {
       border-bottom: 1px solid #69a020; }
   .header .contenedor-nav .nav a:last-child {
     color: white; }
+=======
+  padding: 0 5.5% !important;
+}
+.header .contenedor-logo {
+  padding: 10px 0;
+}
+.header .contenedor-nav .nav a {
+  color: #8c8c8c;
+  position: relative;
+}
+.header .contenedor-nav .nav a:hover {
+  color: #69a020;
+  border-bottom: 1px solid #69a020;
+}
+.header .contenedor-nav .nav a:last-child {
+  color: white;
+}
+>>>>>>> e407570c7ac1b6969966bd7936b62d6fb9fd31c2
 
 .contenedor-banner-copy {
   position: relative;
   min-height: 90vh;
+<<<<<<< HEAD
   margin-top: 10vh; }
   .contenedor-banner-copy .banner img {
     min-width: 100%; }
@@ -91,6 +111,25 @@ body {
     color: white; }
     .contenedor-banner-copy .copy h1 {
       font-family: "lucida_sansdemibold"; }
+=======
+  margin-top: 10vh;
+}
+.contenedor-banner-copy .banner img {
+  min-width: 100%;
+}
+.contenedor-banner-copy .copy {
+  padding: 5%;
+  position: absolute;
+  color: white;
+  line-height: 200px;
+}
+.contenedor-banner-copy .copy h1 {
+  font-family: "lucida_sansdemibold";
+}
+.contenedor-banner-copy .copy .btn-contacto {
+  margin-top: -100px;
+}
+>>>>>>> e407570c7ac1b6969966bd7936b62d6fb9fd31c2
 
 .contenedor-objetivos .objetivo-1, .contenedor-objetivos .objetivo-2 {
   height: 43vh;
@@ -126,6 +165,7 @@ body {
       width: 100%; }
 
 .list-group-item.active {
+<<<<<<< HEAD
   background: #6997af !important; }
 
 .seccion-servicios {
@@ -215,6 +255,128 @@ body {
   .seccion-servicios .contenido-areas-especializadas {
     margin-top: 2rem;
     padding-right: 5.5%; }
+=======
+  background: #2a84c2 !important;
+}
+
+.seccion-servicios {
+  background: #f1f1f1;
+  padding-bottom: 2rem;
+}
+.seccion-servicios .titulo-servicios {
+  margin: 2rem 0;
+  padding: 0 5.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.seccion-servicios .titulo-servicios h2 {
+  width: 100%;
+  text-align: center;
+}
+.seccion-servicios .titulo-servicios h2 button {
+  width: 80%;
+  border-radius: 50px;
+  line-height: 40px;
+  background: #8784c7;
+  border: none;
+}
+.seccion-servicios .servicio {
+  margin: 25px 0;
+  height: 400px;
+  position: relative;
+  perspective: 1000px;
+  color: white;
+}
+.seccion-servicios .servicio:nth-last-of-type(odd) .cara {
+  background: #2a84c2;
+}
+.seccion-servicios .servicio:nth-last-of-type(even) .cara {
+  background: #6997af;
+}
+.seccion-servicios .servicio .caja-servicio {
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+  width: 100%;
+  height: 100%;
+}
+.seccion-servicios .servicio .caja-servicio .cara {
+  position: absolute;
+  backface-visibility: hidden;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-servicios .servicio .caja-servicio .cara.frontal img {
+  width: 35%;
+  margin-bottom: 2.5rem;
+}
+.seccion-servicios .servicio .caja-servicio .cara.posterior {
+  font-size: 15px;
+  transform: rotateY(180deg);
+}
+.seccion-servicios .servicio:hover .caja-servicio {
+  transform: rotateY(180deg);
+}
+.seccion-servicios .contenedor-servicios-1 {
+  display: block;
+  padding: 0 5.5%;
+  margin: 2rem 0;
+}
+.seccion-servicios .contenedor-servicios-2 {
+  display: none;
+  padding: 0 5.5%;
+  margin: 2rem 0;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-1, .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 {
+  padding: 3rem;
+  background: #6997af;
+  color: white;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-1 img, .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 2rem;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 {
+  background: #2a84c2;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .fintech-colapsado {
+  color: #2a84c2;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .contenedor-informes-externos {
+  display: flex;
+}
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .contenedor-informes-externos > li {
+  margin: 1rem;
+}
+.seccion-servicios .subtitulo-h3 + .img-especializadas {
+  padding: 0;
+  background: url(../../public/images/home/9-serviciosavanzados.svg) no-repeat center top;
+  background-attachment: fixed !important;
+  background-size: cover;
+  height: 60vh;
+}
+.seccion-servicios .lista-areas-especializadas {
+  padding-left: 5.5%;
+  margin-top: 2rem;
+}
+.seccion-servicios .lista-areas-especializadas h4 {
+  padding: 5%;
+  font-size: 20px;
+}
+.seccion-servicios .contenido-areas-especializadas {
+  margin-top: 2rem;
+  padding-right: 5.5%;
+}
+>>>>>>> e407570c7ac1b6969966bd7936b62d6fb9fd31c2
 
 .entregables .titulo_entre {
   text-align: center;
@@ -452,6 +614,7 @@ textarea {
 .menu-pie .linea:before {
   content: "|         "; }
 
+<<<<<<< HEAD
 @media (max-width: 992px) {
   .servicio {
     margin: 1rem 0; }
@@ -466,6 +629,58 @@ textarea {
       position: relative; }
       .contenedor-banner-copy .copy h1 {
         font-size: 30px; }
+=======
+@media (max-width: 1200px) {
+  .contenedor-banner-copy {
+    background: url("../../public/images/banner/1-header.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-5deg);
+    margin-top: -5rem;
+  }
+  .contenedor-banner-copy .copy {
+    transform: skewY(5deg);
+    position: relative;
+    top: 10%;
+  }
+  .contenedor-banner-copy .copy h1 {
+    font-size: 40px;
+  }
+
+  .contenedor-objetivos {
+    margin-top: 8%;
+  }
+}
+@media (min-width: 992px) {
+  .contenedor-banner-copy {
+    position: relative;
+    min-height: 50vh;
+    margin-top: 9vh;
+  }
+}
+@media (max-width: 992px) {
+  .contenedor-banner-copy {
+    height: auto;
+    margin-top: 12vh;
+  }
+  .contenedor-banner-copy .copy {
+    position: absolute;
+    top: 20%;
+  }
+  .contenedor-banner-copy .copy h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-banner-copy {
+    margin-top: 12vh;
+  }
+  .contenedor-banner-copy .copy h1 {
+    font-size: 20px;
+  }
+>>>>>>> e407570c7ac1b6969966bd7936b62d6fb9fd31c2
 
   .servicio {
     margin: 1rem 0; }
@@ -498,11 +713,26 @@ textarea {
     text-align: center; }
 
   .entregables .entre_sub1,
+<<<<<<< HEAD
   .entregables .entre_sub2,
   .entregables .entre_sub3,
   .entregables .entre_sub4,
   .entregables .entre_sub5,
   .entregables .entre_sub6 {
     width: 100%; } }
+=======
+.entregables .entre_sub2,
+.entregables .entre_sub3,
+.entregables .entre_sub4,
+.entregables .entre_sub5,
+.entregables .entre_sub6 {
+    width: 100%;
+  }
+
+  .contenedor-banner-copy .copy h1 {
+    font-size: 18px;
+  }
+}
+>>>>>>> e407570c7ac1b6969966bd7936b62d6fb9fd31c2
 
 /*# sourceMappingURL=estilos.css.map */

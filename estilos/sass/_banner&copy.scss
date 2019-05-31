@@ -11,8 +11,12 @@
       padding: 5%;
       position: absolute;
       color: $fondo-claro-1;
+      line-height: 200px;
       h1 {
          font-family: "lucida_sansdemibold";
+      }
+      .btn-contacto {
+         margin-top: -100px;
       }
    }
 }
