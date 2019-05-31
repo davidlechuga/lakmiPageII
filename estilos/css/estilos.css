@@ -241,15 +241,19 @@ body {
   padding: 0 5.5%;
   margin: 2rem 0;
 }
-.seccion-servicios .contenedor-servicios-2 .servicio {
-  height: 600px;
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-1, .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 {
+  padding: 3rem;
+  background: #6997af;
+  color: white;
 }
-.seccion-servicios .contenedor-servicios-2 .servicio .caja-servicio .cara {
-  padding: 5rem 1rem;
-  overflow: auto;
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-1 img, .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 2rem;
 }
-.seccion-servicios .contenedor-servicios-2 .servicio .caja-servicio .frontal img {
-  width: 15%;
+.seccion-servicios .contenedor-servicios-2 .sub-servicio-2 {
+  background: #2a84c2;
 }
 .seccion-servicios .contenedor-servicios-2 .sub-servicio-2 .fintech-colapsado {
   color: #2a84c2;
