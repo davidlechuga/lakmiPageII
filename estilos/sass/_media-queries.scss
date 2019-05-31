@@ -15,16 +15,16 @@
       .copy {
          // color: $links;
          transform: skewY(5deg);
-         position: absolute;
+         position: relative;
          top: 10%;
          h1 {
             font-size: 40px;
          }
       }
    }
-   // .contenedor-objetivos {
-   //    // margin-top: 3rem;
-   // }
+   .contenedor-objetivos {
+      margin-top: 8%;
+   }
 }
 @media (min-width: 992px){
    .contenedor-banner-copy {
@@ -40,8 +40,8 @@
 
       .copy {
          // color: $links;
-         // position: relative;
-         top: 30%;
+         position: absolute;
+         top: 20%;
          h1 {
             font-size: 20px;
          }
@@ -54,9 +54,6 @@
       margin-top: 12vh;
 
       .copy {
-         // color: $links;
-         // position: relative;
-         top: 20%;
          h1 {
             font-size: 20px;
          }
@@ -125,7 +122,6 @@
    }
    .contenedor-banner-copy {
       .copy {
-         top: 10%;
          h1 {
             font-size: 18px;
          }

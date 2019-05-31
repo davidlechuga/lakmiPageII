@@ -115,6 +115,9 @@ body {
 .contenedor-banner-copy .copy h1 {
   font-family: "lucida_sansdemibold";
 }
+.contenedor-banner-copy .copy .btn-contacto {
+  margin-top: -100px;
+}
 
 .contenedor-objetivos .objetivo-1, .contenedor-objetivos .objetivo-2 {
   height: 43vh;
@@ -573,11 +576,15 @@ textarea {
   }
   .contenedor-banner-copy .copy {
     transform: skewY(5deg);
-    position: absolute;
+    position: relative;
     top: 10%;
   }
   .contenedor-banner-copy .copy h1 {
     font-size: 40px;
+  }
+
+  .contenedor-objetivos {
+    margin-top: 8%;
   }
 }
 @media (min-width: 992px) {
@@ -593,7 +600,8 @@ textarea {
     margin-top: 12vh;
   }
   .contenedor-banner-copy .copy {
-    top: 30%;
+    position: absolute;
+    top: 20%;
   }
   .contenedor-banner-copy .copy h1 {
     font-size: 20px;
@@ -602,9 +610,6 @@ textarea {
 @media (max-width: 768px) {
   .contenedor-banner-copy {
     margin-top: 12vh;
-  }
-  .contenedor-banner-copy .copy {
-    top: 20%;
   }
   .contenedor-banner-copy .copy h1 {
     font-size: 20px;
@@ -660,9 +665,6 @@ textarea {
     width: 100%;
   }
 
-  .contenedor-banner-copy .copy {
-    top: 10%;
-  }
   .contenedor-banner-copy .copy h1 {
     font-size: 18px;
   }
