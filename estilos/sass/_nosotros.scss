@@ -14,16 +14,9 @@
    }
 }
 
-.nos-img {
-	 height: 80%;
-	 text-align: center;
-}
-
-
-
-.nos_article,
 .sec-img {
-	display: flex;
-	justify-content: center;
-   	align-items: center
+   padding: 0;
+   margin: 0;
+   background: url("../../public/images/nosotros/15-nosotros.svg") no-repeat;
+   background-size:  cover;
 }
