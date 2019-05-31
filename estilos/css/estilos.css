@@ -225,6 +225,7 @@ body {
   margin-bottom: 2.5rem;
 }
 .seccion-servicios .servicio .caja-servicio .cara.posterior {
+  font-size: 15px;
   transform: rotateY(180deg);
 }
 .seccion-servicios .servicio:hover .caja-servicio {
