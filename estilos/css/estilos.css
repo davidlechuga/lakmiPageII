@@ -79,9 +79,24 @@ body {
   border-bottom: 1px solid white;
 }
 
+ol {
+  list-style-type: lower-alpha;
+}
+ol li {
+  font-weight: bold;
+}
+ol li span {
+  font-weight: normal;
+}
+
+.seccion-beneficios, .seccion-servicios, .nos_seccion, .contacto {
+  padding-top: 70px;
+}
+
 .header {
   background: white;
   padding: 0 5.5% !important;
+  height: 90px;
 }
 .header .contenedor-logo {
   padding: 10px 0;
@@ -143,8 +158,10 @@ body {
 }
 
 .seccion-beneficios {
-  padding: 0;
   margin: 0;
+}
+.seccion-beneficios .titulo-seccion {
+  padding: 0 5.5%;
 }
 .seccion-beneficios .beneficio {
   display: flex;
@@ -564,21 +581,6 @@ textarea {
 .menu-pie .linea:before {
   content: "|         ";
 }
-
-.centra-vertical{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.centra-vertical1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-}
-
 
 @media (max-width: 1200px) {
   .contenedor-banner-copy {

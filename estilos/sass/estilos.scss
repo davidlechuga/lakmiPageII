@@ -28,7 +28,7 @@ html, body {
 }
 
 body {
-   font-family: 'lucida_sansregular', Verdana, sans-serif; 
+   font-family: 'lucida_sansregular', Verdana, sans-serif;
 }
 .contenedor-principal {
    padding: 0;
@@ -81,6 +81,19 @@ body {
         border-bottom: 1px solid white;
       }
     }
+}
+ol {
+   list-style-type: lower-alpha;
+   li {
+      font-weight: bold;
+      span {
+         font-weight: normal;
+      }
+   }
+}
+
+.seccion-beneficios, .seccion-servicios, .nos_seccion, .contacto {
+   padding-top: 70px;
 }
 
 @import "header";
