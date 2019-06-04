@@ -456,6 +456,21 @@ textarea {
 .menu-pie .linea:before {
   content: "|         "; }
 
+.centra-vertical{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.centra-vertical1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
 @media (max-width: 1200px) {
   .contenedor-banner-copy {
     background: url("../../public/images/banner/1-header.svg");
