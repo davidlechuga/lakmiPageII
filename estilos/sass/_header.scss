@@ -8,16 +8,27 @@
       //    // height: 9vh;
       // }
    }
-   .contenedor-nav .nav a{
-      color: $links;
-      position: relative;
-      &:hover {
-         color: $links-activo;
-         border-bottom: 1px solid $links-activo;
+   .contenedor-nav .navbar .nav{
+      .nav-item {
+         // &.active {
+         //    background: red;
+         // } 
+         a{
+            color: $links;
+            position: relative;
+            &.active {
+               color: $links-activo;
+               border-bottom: 1px solid $links-activo;
+            }
+            &:hover {
+               color: $links-activo;
+               border-bottom: 1px solid $links-activo;
+            }
+            transition: all 1s;
+         }
       }
-      transition: all 1s;
    }
-   .contenedor-nav .nav a:last-child{
+   .contenedor-nav .navbar .nav .nav-item:last-child a{
       color: $fondo-claro-1;
    }
 }

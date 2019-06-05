@@ -120,6 +120,7 @@
       margin: 0;
       background: $resaltado-4;
       color: $fondo-claro-1;
+      cursor: unset;
       &::after {
         content: "";
         position: absolute;

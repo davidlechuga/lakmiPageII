@@ -100,16 +100,20 @@ ol li span {
 .header .contenedor-logo {
   padding: 10px 0;
 }
-.header .contenedor-nav .nav a {
+.header .contenedor-nav .navbar .nav .nav-item a {
   color: #8c8c8c;
   position: relative;
   transition: all 1s;
 }
-.header .contenedor-nav .nav a:hover {
+.header .contenedor-nav .navbar .nav .nav-item a.active {
   color: #69a020;
   border-bottom: 1px solid #69a020;
 }
-.header .contenedor-nav .nav a:last-child {
+.header .contenedor-nav .navbar .nav .nav-item a:hover {
+  color: #69a020;
+  border-bottom: 1px solid #69a020;
+}
+.header .contenedor-nav .navbar .nav .nav-item:last-child a {
   color: white;
 }
 
@@ -300,6 +304,7 @@ ol li span {
   margin: 0;
   background: #6997af;
   color: white;
+  cursor: unset;
 }
 .seccion-servicios .lista-areas-especializadas h4::after {
   content: "";
