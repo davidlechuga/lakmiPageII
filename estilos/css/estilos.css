@@ -103,7 +103,6 @@ ol li span {
 .header .contenedor-nav .navbar .nav .nav-item a {
   color: #8c8c8c;
   position: relative;
-  transition: all 1s;
 }
 .header .contenedor-nav .navbar .nav .nav-item a.active {
   color: #69a020;
