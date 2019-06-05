@@ -384,7 +384,7 @@ ol {
   background-size: cover; }
 
 .negocios_title {
-  font-family: lucida_sansdemibold;
+  font-family: lucida_sansregular;
   padding: 0 40px; }
 
 .negocios_seccion1,
@@ -405,7 +405,7 @@ ol {
   font-size: 1.2em; }
 
 .valores_titulo {
-  font-family: lucida_sansdemibold;
+  font-family: lucida_sansregular;
   padding: 0 3.5em;
   width: 100%; }
 
