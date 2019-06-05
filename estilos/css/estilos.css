@@ -278,6 +278,7 @@ ol {
 
 .entregables .titulo_entre {
   text-align: center;
+  font-weight: normal;
   position: relative;
   margin: 2rem 0; }
   .entregables .titulo_entre::after {
@@ -367,6 +368,7 @@ ol {
 
 .nos_seccion h2 {
   text-align: center;
+  font-weight: normal;
   margin: 2rem 0;
   position: relative; }
   .nos_seccion h2::after {
@@ -385,7 +387,8 @@ ol {
 
 .negocios_title {
   font-family: lucida_sansregular;
-  padding: 0 40px; }
+  padding: 0 40px;
+  font-weight: normal; }
 
 .negocios_seccion1,
 .negocios_seccion2 {
@@ -406,6 +409,7 @@ ol {
 
 .valores_titulo {
   font-family: lucida_sansregular;
+  font-weight: normal;
   padding: 0 3.5em;
   width: 100%; }
 
