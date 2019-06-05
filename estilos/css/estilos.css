@@ -166,6 +166,9 @@ ol li span {
 .seccion-beneficios .titulo-seccion {
   padding: 0 5.5%;
 }
+.seccion-beneficios .titulo-seccion h3 {
+  text-align: center;
+}
 .seccion-beneficios .beneficio {
   display: flex;
   align-items: center;

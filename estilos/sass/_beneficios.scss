@@ -2,6 +2,9 @@
    margin: 0;
    .titulo-seccion {
       padding: 0 5.5%;
+      h3 {
+         text-align: center;
+      }
    }
    .beneficio {
       display: flex;
