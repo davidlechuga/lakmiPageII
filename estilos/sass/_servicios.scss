@@ -142,6 +142,31 @@
     margin-top: 2rem;
     padding-right: 5.5%;
   }
+  .subtitulo-2-areas {
+    text-align: center;
+    position: relative;
+    margin: 0;
+    background: $resaltado-4;
+    color: $fondo-claro-1;
+    h4 {
+      font-size: 23px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 20%;
+      top: 90%;
+      width: 60%;
+      border-bottom: 1px solid white;
+    }
+    ~ .card {
+      background: rgb(222, 235, 240);
+      .card-header.active {
+        background: $resaltado-4 !important;
+
+      }
+    }
+  }
 }
 
 

@@ -327,6 +327,30 @@ ol li span {
   margin-top: 2rem;
   padding-right: 5.5%;
 }
+.seccion-servicios .subtitulo-2-areas {
+  text-align: center;
+  position: relative;
+  margin: 0;
+  background: #6997af;
+  color: white;
+}
+.seccion-servicios .subtitulo-2-areas h4 {
+  font-size: 23px;
+}
+.seccion-servicios .subtitulo-2-areas::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 90%;
+  width: 60%;
+  border-bottom: 1px solid white;
+}
+.seccion-servicios .subtitulo-2-areas ~ .card {
+  background: #deebf0;
+}
+.seccion-servicios .subtitulo-2-areas ~ .card .card-header.active {
+  background: #6997af !important;
+}
 
 .entregables .titulo_entre {
   text-align: center;
