@@ -40,16 +40,16 @@ body {
 .titulo-seccion h2 {
   text-align: center;
   margin: 2rem 0;
-  position: relative; }
-  .titulo-seccion h3 {
-    text-align: center;}
-  .titulo-seccion h2::after {
-    content: "";
-    position: absolute;
-    left: 40%;
-    top: 120%;
-    width: 20%;
-    border: 1px solid #8784c7; }
+  position: relative;
+}
+.titulo-seccion h2::after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  top: 120%;
+  width: 20%;
+  border: 1px solid #8784c7;
+}
 
 .subtitulo-h3 h3 {
   text-align: center;
@@ -295,6 +295,25 @@ ol li span {
 .seccion-servicios .lista-areas-especializadas h4 {
   padding: 5%;
   font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  background: #6997af;
+  color: white;
+}
+.seccion-servicios .lista-areas-especializadas h4::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 80%;
+  width: 60%;
+  border-bottom: 1px solid white;
+}
+.seccion-servicios .lista-areas-especializadas h4 ~ .list-group-item {
+  background: #deebf0;
+}
+.seccion-servicios .lista-areas-especializadas h4 ~ .list-group-item.active {
+  background: #6997af !important;
 }
 .seccion-servicios .contenido-areas-especializadas {
   margin-top: 2rem;

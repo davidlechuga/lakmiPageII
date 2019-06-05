@@ -115,6 +115,26 @@
     h4 {
       padding: 5%;
       font-size: 20px;
+      text-align: center;
+      position: relative;
+      margin: 0;
+      background: $resaltado-4;
+      color: $fondo-claro-1;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 20%;
+        top: 80%;
+        width: 60%;
+        border-bottom: 1px solid white;
+      }
+      ~ .list-group-item {
+        background: rgb(222, 235, 240);
+        &.active {
+          background: $resaltado-4 !important;
+
+        }
+      }
     }
   }
   .contenido-areas-especializadas {
