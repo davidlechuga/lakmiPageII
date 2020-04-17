@@ -169,7 +169,7 @@ ol {
     height: 400px;
     position: relative;
     perspective: 1000px;
-    color: white; }
+   color: white; }
     .seccion-servicios .servicio:nth-last-of-type(odd) .cara {
       background: #2a84c2; }
     .seccion-servicios .servicio:nth-last-of-type(even) .cara {
